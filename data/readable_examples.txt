@@ -1,0 +1,750 @@
+COMPARISON OF FINE-TUNED VS BASE MODEL RESPONSES
+
+EXAMPLE 1
+Original Prompt:
+One-pot vegetarian pasta recipes for busy nights
+
+Fine-tuned Model Response:
+Here are two examples of one-pot pasta recipes. Analyze the strengths and weaknesses of each, focusing on ease of preparation, taste, and nutritional value.
+
+Recipe 1:
+Ingredients: Pasta, vegetables, broth, herbs
+Instructions: Sauté vegetables, add pasta and broth, simmer until pasta is cooked.
+
+Recipe 2:
+Ingredients: Pasta, canned tomatoes, beans, spices, water
+Instructions: Combine ingredients in a pot, bring to a boil, then simmer until pasta is cooked.
+
+Now, provide your analysis of the strengths and weaknesses of each recipe.
+
+Base Model Response:
+Write five unique one-pot vegetarian pasta recipes suitable for weeknight dinners, emphasizing minimal cleanup. Each recipe should include: a title, estimated prep and cook time (total time), a list of ingredients with specific quantities, detailed step-by-step instructions, and any relevant nutritional information (calories per serving, protein per serving, etc.). Recipes should utilize readily available ingredients and cater to varying flavor profiles (e.g., Italian, Asian-inspired, spicy). The output should be formatted in a clear, easy-to-read style, suitable for a recipe blog post.
+
+
+================================================================================
+
+EXAMPLE 2
+Original Prompt:
+We have the following blog content... what is the likely user intent of a searcher who lands on this page? Our goal should be to answer that intent better and faster than anyone else!
+
+The content:
+
+Consumers want more choices, but all those choices can be daunting. It gives the consumer the responsibility of educating themselves on the best option for their circumstances. On GigSalad, we deliver more than 600 categories of entertainment and event services for the ability to compare rates of various performers. With an enormous variety of services, it’s a really great option for first-timers and seasoned event planners alike. But with so many talented professionals out there, how do you choose? Budget may be a large factor in who you choose to book, but before you make your choice, here are 6 reasons for choosing the best entertainment, not the cheapest.
+
+1. You get what you pay for.
+Entertainers with higher rates oftentimes need to charge more to account for the costs of their high-quality equipment. Many performers set them based on their professional experience. They know what their service is worth and they’ve been able to make their living from that. They’ve invested in their business with the best materials, gear, instruments, props, etc. to give their clients most immersive experience. These materials can make a huge difference between one vendor and another.
+
+Say you’re looking for a princess character for your child’s birthday party. To make a fairy tale come to life, performers need costumes and accessories that not only look pretty and authentic but also hold up to wear and tear. Along with the costs of dry cleaning, well-made costumes are a large investment for professional princess characters. If you’re choosing a performer based solely on price, you risk hiring someone who doesn’t provide the same magical experience for your kids, perhaps even giving them a disenchanting experience. A top-notch entertainer will deliver a performance that you and your family will remember for years to come.
+
+ 
+
+
+ 
+
+Don’t let the sticker shock of good entertainment throw off your plans. You don’t want always want to break your budget at the expense of the rest of the event. Simply determine your priorities and set the spending from there. It’s important to research the real cost of a quality service before booking. If there is a significant drop-off between bids, then you can probably expect a drop-off in quality as well. Adjust your budget to your talent and quality expectations.
+
+2. Professionals who are invested in their business are also invested in their clients.
+When performers rely heavily on your business for their income, they’ll go to great lengths to make sure you’re happy with their service. Most of our GigSalad entertainers are self-employed, independent business people. They depend on good reviews and word of mouth for promotion and buzz.
+
+Hiring an experienced professional means you’re hiring someone who has invested their lives into entertaining. Their goal is to make a living and provide you with a memorable event at the same time. Great memories are the foundation of their income and they’ll often go to great lengths to ensure you’re satisfied.
+
+3. Pros know how to customize for your needs.
+Many low-cost entertainers and performers are at the beginning of their careers or at a lower skill level. Often, this means that they offer a limited repertoire and fewer options as they are developing their craft. Your event is unique to you, therefore, you’ll need someone who can customize their act or services to your event. A good sign of a professional is their ability and willingness to reasonably adapt to your event needs.
+
+4. Pros offer more than just entertainment. They give you peace of mind.
+Professionals who charge more than the competition have the confidence in their experience. If they’ve got a thousand performances under their belt, they’ve encountered all kinds of situations, which means they’d be prepared for anything that may come up at your event. The ability to adapt and improvise is especially beneficial in unexpected situations that put your event at risk of turning into a disaster!
+
+
+5. The difference in cost makes all the difference in the success of your event.
+You’ve decided to take the risk and hire an entertainer for your event. Perhaps a strolling magician for the office party you were picked to plan. You’ve looked through the profiles, read the reviews, and checked out the videos and pictures. When the moment of decision comes, the temptation of saving a few bucks by hiring someone with fewer reviews and a lower quality presentation get very real very quickly. That’s money that could go to streamers! But those few dollars could mean the difference in the quality of your event and the likelihood of using entertainment again. A great professional turns the groans of “Remember last year? I hope that doesn’t happen again,” to the excitement of “Remember last year? I can’t wait to see what happens this time!” Paying a few extra bucks can prevent the dreaded buyer’s remorse.
+
+6. There are no do-overs.
+GigSalad’s mission is to help you Book Something Awesome. We recognize that many of the events we connect entertainers with are often once in a lifetime moments. That significance is one of the reasons we encourage you to take the time and research your providers well. You may not get a chance to do it again. We hope that you would take the few extra minutes necessary to thoroughly read the bids, examine the profiles, view the media, and make an educated decision. Don’t risk devaluing a critical life moment or celebration by going bargain hunting. If the price is right and the quality is high, invest in the memory.  
+
+We’re not telling you that you should choose only vendors who charge more for their services. It’s certainly possible to find a talented professional with a lower fee. We’re simply encouraging you to do your homework. Look at their photos and videos, read reviews, ask them questions. Figure out why their rates are what they are. When you’ve got all the information in front of you, you’ll be able to make an informed decision and confidently book the right person for your event.
+
+Fine-tuned Model Response:
+Here is an example of blog content and the corresponding user intent:
+
+Blog Content:
+"I'm looking for the best Italian restaurant in town. I want authentic pasta and a cozy atmosphere. Any recommendations?"
+
+User Intent:
+"I want to find a top-rated Italian restaurant with great pasta and a nice ambiance."
+
+Now, analyze the following blog content and determine the likely user intent. Think step by step, considering the main topics and what the user might be trying to achieve by reading it.
+
+Blog Content:
+"Consumers want more choices, but all those choices can be daunting. It gives the consumer the responsibility of educating themselves on the best option for their circumstances. On GigSalad, we deliver more than 600 categories of entertainment and event services for the ability to compare rates of various performers. With an enormous variety of services, it’s a really great option for first-timers and seasoned event planners alike. But with so many talented professionals out there, how do you choose? Budget may be a large factor in who you choose to book, but before you make your choice, here are 6 reasons for choosing the best entertainment, not the cheapest.
+
+1. You get what you pay for.
+Entertainers with higher rates oftentimes need to charge more to account for the costs of their high-quality equipment. Many performers set them based on their professional experience. They know what their service is worth and they’ve been able to make their living from that. They’ve invested in their business with the best materials, gear, instruments, props, etc. to give their clients most immersive experience. These materials can make a huge difference between one vendor and another.
+
+Say you’re looking for a princess character for your child’s birthday party. To make a fairy tale come to life, performers need costumes and accessories that not only look pretty and authentic but also hold up to wear and tear. Along with the costs of dry cleaning, well-made costumes are a large investment for professional princess characters. If you’re choosing a performer based solely on price, you risk hiring someone who doesn’t provide the same magical experience for your kids, perhaps even giving them a disenchanting experience. A top-notch entertainer will deliver a performance that you and your family will remember for years to come.
+
+ 
+
+Don’t let the sticker shock of good entertainment throw off your plans. You don’t want always want to break your budget at the expense of the rest of the event. Simply determine your priorities and set the spending from there. It’s important to research the real cost of a quality service before booking. If there is a significant drop-off between bids, then you can probably expect a drop-off in quality as well. Adjust your budget to your talent and quality expectations.
+
+2. Professionals who are invested in their business are also invested in their clients.
+When performers rely heavily on your business for their income, they’ll go to great lengths to make sure you’re happy with their service. Most of our GigSalad entertainers are self-employed, independent business people. They depend on good reviews and word of mouth for promotion and buzz.
+
+Hiring an experienced professional means you’re hiring someone who has invested their lives into entertaining. Their goal is to make a living and provide you with a memorable event at the same time. Great memories are the foundation of their income and they’ll often go to great lengths to ensure you’re satisfied.
+
+3. Pros know how to customize for your needs.
+Many low-cost entertainers and performers are at the beginning of their careers or at a lower skill level. Often, this means that they offer a limited repertoire and fewer options as they are developing their craft. Your event is unique to you, therefore, you’ll need someone who can customize their act or services to your event. A good sign of a professional is their ability and willingness to reasonably adapt to your event needs.
+
+4. Pros offer more than just entertainment. They give you peace of mind.
+Professionals who charge more than the competition have the confidence in their experience. If they’ve got a thousand performances under their belt, they’ve encountered all kinds of situations, which means they’d be prepared for anything that may come up at your event. The ability to adapt and improvise is especially beneficial in unexpected situations that put your event at risk of turning into a disaster!
+
+5. The difference in cost makes all the difference in the success of your event.
+You’ve decided to take the risk and hire an entertainer for your event. Perhaps a strolling magician for the office party you were picked to plan. You’ve looked through the profiles, read the reviews, and checked out the videos and pictures. When the moment of decision comes, the temptation of saving a few bucks by hiring someone with fewer reviews and a lower quality presentation get very real very quickly. That’s money that could go to streamers! But those few dollars could mean the difference in the quality of your event and the likelihood of using entertainment again. A great professional turns the groans of “Remember last year? I hope that doesn’t happen again,” to the excitement of “Remember last year? I can’t wait to see what happens this time!” Paying a few extra bucks can prevent the dreaded buyer’s remorse.
+
+6. There are no do-overs.
+GigSalad’s mission is to help you Book Something Awesome. We recognize that many of the events we connect entertainers with are often once in a lifetime moments. That significance is one of the reasons we encourage you to take the time and research your providers well. You may not get a chance to do it again. We hope that you would take the few extra minutes necessary to thoroughly read the bids, examine the profiles, view the media, and make an educated decision. Don’t risk devaluing a critical life moment or celebration by going bargain hunting. If the price is right and the quality is high, invest in the memory."
+
+Base Model Response:
+Analyze the provided blog content from GigSalad, which focuses on the value of hiring quality entertainment and event services over choosing the cheapest option. Identify the likely user intent of a searcher who lands on this page, considering the context of the content and GigSalad's service.
+
+Then, based on the identified user intent, generate a concise, SEO-optimized response that would ideally satisfy the user's query, providing a better and faster solution than competitors.
+
+Specifically, the response should:
+
+1.  **Clearly define the identified user intent.** (e.g., "The user is likely looking for advice on how to choose entertainment for an event, specifically considering the balance between cost and quality.")
+2.  **Offer a brief, compelling answer to that intent.** (e.g., "When choosing event entertainment, prioritize quality over price by researching performers' experience, reviews, and the value they offer. Remember, a memorable event is an investment, not just an expense.")
+3.  **Incorporate key takeaways from the provided blog content** (e.g., mention the importance of experience, customizing services, and the risk of 'no do-overs').
+4.  **Suggest next steps or further resources.** (e.g., "Explore profiles, read reviews, and ask questions to make an informed decision. GigSalad helps you compare rates, find talent, and book awesome events. ")
+5. **Write in a tone that is friendly, authoritative, and action-oriented.**
+
+Output should be formatted as a short paragraph, ready to be placed as an answer to the user's question. The focus is on quick, helpful information that aligns with the blog's core message.
+
+
+================================================================================
+
+EXAMPLE 3
+Original Prompt:
+how o sort element using merge sort technique using array in java Save & SubmitCancel
+
+Fine-tuned Model Response:
+You are a Java programming assistant. I need you to implement the merge sort algorithm to sort an array of integers in Java. Provide the complete Java code, including the main function with an example array to be sorted. Explain the algorithm step-by-step in comments within the code. Here's an example of how the code should start:
+
+```java
+public class MergeSort {
+
+    public static void main(String[] args) {
+        int[] arr = {38, 27, 43, 3, 9, 82, 10};
+        mergeSort(arr, 0, arr.length - 1);
+        System.out.println("Sorted array:");
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
+    }
+}
+```
+
+Base Model Response:
+Write a Java program that implements the Merge Sort algorithm to sort an array of integers in ascending order. The program should:
+
+1.  Accept an integer array as input.
+2.  Implement the mergeSort() function to recursively divide the array and merge the sorted sub-arrays.
+3.  Implement the merge() function to merge two sorted sub-arrays into a single sorted array.
+4.  Include clear comments explaining each step of the algorithm.
+5.  Provide a main() method to test the implementation with a sample integer array (e.g., `{38, 27, 43, 3, 9, 82, 10}`).
+6.  The program should output the sorted array to the console using `System.out.println()`.
+7.  The final code should be well-formatted and readable.
+
+
+================================================================================
+
+EXAMPLE 4
+Original Prompt:
+make a javascript class "GraphicLayer" which is supplied a parent element, an image element or the url of an image. If the second argument is a url, it will create the image element. the third argument will be called properties, and contain information about the placement of the image in the parent element. One of those properties will be center point, and its x and y will be between zero and one and will be relative to the parent element. (x:.5 and y: .5 will mean the child image is centered on the parent. x:0 and y:0 will center the element above the upper left corner of the parent) Another property will be size, which will also be relative to the parent element.The default center point will be x: 0.5 and y: 0.5, which means the image will be centered on the parent element, with 1 being 100% of the size of the parent, in either width or height, while preserving the aspect ratio.   these dimensions should affect the top, left, width and height styles of the element, without using css transform. there should be a separate method that adjusts those styles.  if the image does not yet have a natural width yet, an onload function should be set up (prior to setting the  source) that will call the method to adjust the dimensions and only set it as visible then.
+
+Fine-tuned Model Response:
+Here are some examples of JavaScript classes for displaying images with positioning relative to a parent element:
+
+Example 1:
+class ImageLayer {
+  constructor(parent, src, properties) {
+    this.parent = parent;
+    this.img = document.createElement('img');
+    this.img.src = src;
+    this.properties = properties || {};
+    this.parent.appendChild(this.img);
+    this.updateStyles();
+  }
+
+  updateStyles() {
+    this.img.style.position = 'absolute';
+    const x = this.properties.x || 0.5;
+    const y = this.properties.y || 0.5;
+    const widthFactor = this.properties.width || 1;
+    const heightFactor = this.properties.height || 1;
+    this.img.style.left = `${x * this.parent.offsetWidth - this.img.offsetWidth * widthFactor / 2}px`;
+    this.img.style.top = `${y * this.parent.offsetHeight - this.img.offsetHeight * heightFactor / 2}px`;
+    this.img.style.width = `${widthFactor * this.parent.offsetWidth}px`;
+    this.img.style.height = `${heightFactor * this.parent.offsetHeight}px`;
+  }
+}
+
+Example 2:
+class CircleLayer {
+  constructor(parent, properties) {
+    this.parent = parent;
+    this.element = document.createElement('div');
+    this.element.style.borderRadius = '50%';
+    this.element.style.backgroundColor = properties.color || 'red';
+    this.parent.appendChild(this.element);
+    this.properties = properties;
+    this.updateStyles();
+  }
+
+  updateStyles() {
+    this.element.style.position = 'absolute';
+    const x = this.properties.x || 0.5;
+    const y = this.properties.y || 0.5;
+    const sizeFactor = this.properties.size || 0.2;
+    this.element.style.left = `${x * this.parent.offsetWidth - this.parent.offsetWidth * sizeFactor / 2}px`;
+    this.element.style.top = `${y * this.parent.offsetHeight - this.parent.offsetHeight * sizeFactor / 2}px`;
+    this.element.style.width = `${sizeFactor * this.parent.offsetWidth}px`;
+    this.element.style.height = `${sizeFactor * this.parent.offsetHeight}px`;
+  }
+}
+
+Now, create a JavaScript class called `GraphicLayer` that takes a parent element, an image element or the URL of an image, and a properties object. The properties object should include `center_x` and `center_y` (0-1), and `width_factor` and `height_factor` (0-1). Use onload to adjust the image dimensions when the image is loaded and ensure the image is centered and scaled correctly within the parent element.
+
+Base Model Response:
+```
+Create a JavaScript class named "GraphicLayer" designed for dynamic image placement within a parent HTML element.
+
+**Class Constructor:**
+
+The constructor should accept the following arguments:
+
+1.  `parentElement`:  A reference to the parent HTML element (e.g., `<div>`). This element will serve as the container for the image.
+2.  `imageSource`:  Either an HTML `<img>` element OR a string representing the URL of an image. If a URL is provided, the constructor should create a new `<img>` element and set its `src` attribute to the URL.
+3.  `properties` (Object): An optional object containing placement and sizing information for the image.  It should include the following:
+    *   `centerPoint`:  An object with `x` and `y` properties (numbers between 0 and 1) defining the image's center point relative to the parent.  Values represent percentages: `x: 0.5, y: 0.5` centers the image; `x: 0, y: 0` places the top-left corner of the image at the top-left corner of the parent. Defaults to `{ x: 0.5, y: 0.5 }` if not provided.
+    *   `size`:  An object with `width` and `height` properties (numbers between 0 and 1) defining the image's size relative to the parent. Values represent percentages of the parent's width or height, maintaining the aspect ratio of the image.  A value of `1` represents 100% of the parent's relevant dimension (width or height, whichever is smaller to ensure the whole image is visible).
+
+**Methods:**
+
+1.  `adjustPositionAndSize()`: This method should calculate and apply the necessary CSS `top`, `left`, `width`, and `height` styles to the image element to position and size it based on the `centerPoint`, `size`, and parent element dimensions. This method MUST NOT use CSS `transform`.  It should also handle the case where the image hasn't loaded yet by using an `onload` event on the image element; if the image has not yet loaded when this function is called, it should set the image to `display: none;`, set `onload` and then set the image to `display: block` in the `onload` function.
+2.  `updateProperties(newProperties)`: A method to dynamically change the properties of the GraphicLayer object. This method should allow the user to update `centerPoint`, and `size` . Calling this method should trigger `adjustPositionAndSize()`
+
+**Constraints and Requirements:**
+
+*   The image's aspect ratio MUST be preserved during sizing.
+*   When `size` is specified, the image should scale to fit within the available space based on the smaller dimension (width or height) of the parent.
+*   Ensure the image is initially hidden (e.g., `display: none`) if its dimensions are not yet known. Reveal the image (e.g., `display: block`) *only* after `adjustPositionAndSize()` is called after the image has loaded (if the image is not yet loaded).
+*   The generated code should be well-commented and easy to understand.
+
+**Output Format:**
+
+Provide ONLY the complete, runnable JavaScript class definition, ready to be used directly in an HTML environment. The code should be concise and efficient.
+```
+
+
+================================================================================
+
+EXAMPLE 5
+Original Prompt:
+!Please outline the steps to build an automated chat bot integrated into various users' social media accounts to reply to texts and emulate the user by using GPT3 trained on users' chat logsThis content may violate our content policy. If you believe this to be in error, please submit your feedback — your input will aid our research in this area.
+
+Fine-tuned Model Response:
+Here's an example of a good automated chat bot building prompt:
+
+Input Prompt: You are a software engineering expert. Write Python code to build an automated customer support chatbot that can answer common questions about a product. Use the following steps:
+
+1.  Define the intent of common customer inquiries (e.g., "How do I reset my password?", "What are the shipping costs?", "How do I contact support?").
+2.  Create a decision-making process to route each query to the appropriate answer.
+3.  Write code to generate responses based on the identified intent.
+4.  Include a fallback mechanism for handling unknown queries.
+5.  Test the chatbot with sample customer inquiries.
+
+Now, write the Python code for this chatbot, following the steps outlined above. Include necessary libraries and comments to explain the code. Provide a sample conversation with the chatbot.
+
+Base Model Response:
+Develop a detailed, step-by-step plan for creating a GPT-3 powered chatbot capable of automated interaction across multiple social media platforms (e.g., Twitter, Facebook, Instagram). The chatbot should:
+
+1.  **Data Acquisition & Preparation:** Describe the process of collecting and cleaning user chat logs. Specify the data formats to be supported (e.g., text, JSON). Detail methods for handling PII and ensuring user privacy during data collection and processing.
+2.  **Model Training & Fine-tuning:** Outline the specific GPT-3 model to utilize and the parameters for fine-tuning the model on the cleaned user chat logs. Include guidance on prompt engineering strategies to maximize the chatbot's ability to mimic a user's writing style, tone, and vocabulary.
+3.  **Platform Integration:** Detail the technical steps to integrate the chatbot with various social media APIs. Specify how to handle different message formats, character limits, and platform-specific features. Include considerations for real-time interaction and managing multiple concurrent conversations.
+4.  **Automated Response Logic:** Define the logic the chatbot will follow to identify incoming messages, determine the appropriate response, and generate an output using the fine-tuned GPT-3 model. Detail methods for handling ambiguous requests, providing relevant and engaging replies, and avoiding offensive or inappropriate content.
+5.  **User Authentication & Authorization:** Explain the processes for securely authenticating users to allow the chatbot access to their social media accounts. Detail how the chatbot will manage different user profiles and access rights across multiple platforms.
+6.  **Testing & Evaluation:** Outline a testing and evaluation methodology for measuring the chatbot's performance. Include metrics for measuring accuracy, fluency, user satisfaction, and the ability to correctly emulate user style.
+7.  **Scalability & Maintenance:** Detail plans for ensuring the scalability of the chatbot as the number of users and platform interactions grow. Include a maintenance plan for updating the model, handling API changes, and troubleshooting common issues.
+
+Provide the plan in a numbered list format. Consider potential legal and ethical implications throughout the process.
+
+
+================================================================================
+
+EXAMPLE 6
+Original Prompt:
+Write a tweet announcing the launch of SWR 2.0 in the style of rauchg
+
+Outline the top 5 newest features in a markdown list format, using ◆ as the bullet point.
+
+Fine-tuned Model Response:
+I want you to act as a software development news commentator. Your task is to create a Twitter thread announcing the launch of SWR 2.0. First, create a concise, attention-grabbing opening tweet (280 characters or less) that summarizes the key benefit of the release. Then, create four follow-up tweets, each detailing one of the top 5 newest features in SWR 2.0. For each feature tweet, provide a brief explanation of the feature and its benefits for developers. Use markdown formatting to highlight important terms and code snippets. Finally, end the thread with a concluding tweet that encourages developers to check out the new release and link to the official SWR documentation. Make the tone enthusiastic and engaging.
+
+Base Model Response:
+Write a tweet announcing the launch of SWR 2.0 in the style of @rauchg (Guillermo Rauch). The tweet should be concise, engaging, and reflect Rauch's typical tone – emphasizing speed, simplicity, and performance. Include a brief call to action, encouraging users to try SWR 2.0. Outline the top 5 newest features in a markdown list format, using ◆ as the bullet point, within the tweet. Ensure the tweet is under 280 characters.
+
+
+================================================================================
+
+EXAMPLE 7
+Original Prompt:
+I have a complex task for you
+
+Fine-tuned Model Response:
+Here are a few examples to guide you:
+
+      Example 1:
+      Input: I need help writing a Python script to automate file backup to an external hard drive. The script should handle large files and directories efficiently, provide progress updates, and log any errors. I want the script to use the `shutil` module for copying files and directories, and the `logging` module for error logging. The backup directory should be created if it doesn't exist.
+      Output: Write a Python script to automate file backup to an external hard drive. The script should:
+      1. Take the source directory and backup directory as command-line arguments.
+      2. Create the backup directory if it does not exist.
+      3. Use the `shutil.copy2` function to copy files while preserving metadata (timestamp, permissions).
+      4. Provide progress updates to the console, including the name of the file being backed up and the percentage complete.
+      5. Log any errors encountered during the backup process, including the error message and the name of the file.
+      6. Use the `logging` module to configure logging.
+      7. Handle large files and directories efficiently.
+      8. Check if the source directory exists before attempting to back it up.
+
+      Example 2:
+      Input: I want you to analyze this text about marketing strategies. Identify the key marketing strategies mentioned, provide a brief explanation of each strategy, and explain how they relate to each other. The text is as follows: [Insert marketing text here]
+      Output: (Provide the analysis following the instructions)
+
+Base Model Response:
+You are a highly skilled AI assistant specializing in [Specific Area, e.g., Software Development, Creative Writing, Financial Analysis]. I will provide you with details about a complex task. Analyze the provided information, apply your expertise, and generate a solution/output according to my specifications. The task is related to [Briefly describe the task's general area].
+
+Here's the information:
+
+*   [Provide all relevant details about the task, including context, background information, and any existing resources or constraints.]
+*   [Specify any requirements for the solution or output. What needs to be achieved?]
+*   [Define the desired output format. Be precise, e.g., a JSON file with specific keys, a Python script, a short story with specific themes, a detailed report with a defined structure, etc.]
+*   [Mention any specific constraints, such as word limits, coding language, or specific tools to be used.]
+
+Please ensure your response adheres strictly to the specified format and meets all the requirements outlined. If any information is missing or unclear, ask clarifying questions before providing a solution.
+
+
+================================================================================
+
+EXAMPLE 8
+Original Prompt:
+Below I copied a bunch of comments from a video called AI Inspired Web Design is INSANE! - Fast Tutorial (https://www.youtube.com/watch?v=CQt26KNuGdo). 
+First I want you to clean up this comments and make it more readable. You can remove unnecessary things like '2 days ago'.
+
+TaraBoo Art ARMY
+TaraBoo Art ARMY
+2 days ago
+I feel like a great use for this would be in the initial design phase. Like, imagine using AI to create 20 different prototypes to let a client choose from. That would take AGES manually, but just a few minutes in Midjourney. The client chooses one, and you have your starting point.
+
+118
+
+
+Reply
+
+
+6 replies
+South Coast Inventors
+South Coast Inventors
+2 days ago
+Yeah that a good idea preview mode for the client and in a month or so they will have models that actually output non gibberish text.
+
+4
+
+
+Reply
+
+Vodoved
+Vodoved
+1 day ago
+so many prototypes for client not a good choice. 2-3 will be better
+
+4
+
+
+Reply
+
+TaraBoo Art ARMY
+TaraBoo Art ARMY
+1 day ago
+ @Vodoved  I’ve been doing freelance design for most of the last 25 years. I’ve found clients sometimes aren’t happy with just 2 or 3. I used to start with 2 mockups, but about 10% of clients wouldn’t like either and it was frustrating because all those mockups took time. Being able to do 5 or 10 or even 20 in less time than 1 used to take means a greater likelihood that the client will be happy with at least one of them.
+
+8
+
+
+Reply
+
+SuperChaos
+SuperChaos
+1 day ago
+ @TaraBoo Art ARMY  10-20 sounds insane, honestly. As a client, having to choose from that would stress me out! lol
+
+5
+
+
+Reply
+
+TaraBoo Art ARMY
+TaraBoo Art ARMY
+1 day ago (edited)
+ @SuperChaos  I mean, I wouldn’t do it automatically. Maybe offer 2-3 at first. Or 5, which is what I would offer as an option when I was doing book covers. (They’d have to pay more for 5 mockups than for 2.) But for a picky client (and there are lots of those) having more options that you don’t have to spend hours making would be a game changer.
+
+4
+
+
+Reply
+
+Anis Arpadzic
+Anis Arpadzic
+5 hours ago
+The client shouldn’t choose, perhaps the client should be persuaded to use the design you created.
+
+1
+
+
+Reply
+
+Laone Kwati
+Laone Kwati
+1 day ago
+That's actually great idea to utilize it for colour schemes and ideas then work towards your goal. It is a great tool for assets, sadly some will use it for final work, where they don't even add any creative input except the text prompt.
+
+6
+
+
+Reply
+
+anony mous
+anony mous
+2 days ago
+The various AI designs shown look insanely good.
+
+36
+
+DesignCourse
+
+Reply
+
+Peter6th
+Peter6th
+2 days ago (edited)
+I think NN-based image generators have the same issues like Behance and Dribble have - often it looks the same, follows a trend, can't create new things, don't have fresh ideas ... I  like more to incorporate ideas from other mediums, from old website styles (like 2010) or from websites from other parts of the world except western countries. 
+The problem with that is, that once you got this suggestions (from an NN based generator) you are almost become captured by it and can't escape mentally for new ideas.
+
+25
+
+
+Reply
+
+
+9 replies
+shrunkensimon
+shrunkensimon
+2 days ago
+This is what AI is in a nutshell. It can only regurgitate what you feed it, there is no innovation or inspiration.
+
+5
+
+
+Reply
+
+Mukomio
+Mukomio
+1 day ago (edited)
+ @shrunkensimon  But isn't this just the beginning? I feel like although it is still pretty limited, it has blown people's minds. After the success and media attention, I would be surprised if this wouldn't blow up like crazy and become increasingly sophisticated.
+
+1
+
+
+Reply
+
+shrunkensimon
+shrunkensimon
+19 hours ago
+ @Mukomio  All AI relies on material fed to it. If it were to replace too many people then it will only have its own material to feed on, and become completely stagnant.
+
+It's hype. Look at self driving cars.. hasn't taken off. The chess playing robot broke the kids hand lol. 
+
+Plus people want to do business with people, not machines that can't communicate.
+
+
+
+Reply
+
+ib0o0
+ib0o0
+7 hours ago
+ @shrunkensimon  you don't have an understanding of how AI works. Creativity is just mixing stuff together, don't kid yourself. People you deem creative have experiences they put together to find new ways of building things. If you give the correct prompts, the AI can generate novelty the same way as people can.
+
+2
+
+
+Reply
+
+shrunkensimon
+shrunkensimon
+7 hours ago
+ @ib0o0  A child can mix paints together on a canvas, doesn't mean it's going to be 'good' art. Someone with an understanding of musical notation can write a piano piece, doesn't mean it will sound 'good'.
+
+AI has no conception of what works for humans, it has no lateral or emotive thinking.
+
+Also creativity is not the same as imagination or inspiration.
+
+1
+
+
+Reply
+
+Jaosn Fuller
+Jaosn Fuller
+4 hours ago
+Hopefully you don't use designs from Asian websites.... Most of them are cluttered to hell....which they like for some reason or it's because they arent used to something better.
+
+
+
+Reply
+
+Peter6th
+Peter6th
+4 hours ago
+ @Jaosn Fuller  I don't use designs, I use ideas :) I use whatever idea I like.
+
+
+
+Reply
+
+May the Science be with You
+May the Science be with You
+3 hours ago (edited)
+It can create new things and it does create new things. The way it looks depends on what you tell it to spit out. Midjourney has some preset style, but you can tell it to look different. You'll have to specifiy what you want. You have really no idea what these image generators are capable of.
+
+
+
+Reply
+
+Peter6th
+Peter6th
+3 hours ago (edited)
+ @May the Science be with You  I've played around with them. They  working good, the results are amazing but I got bored real quick.
+
+
+
+Reply
+
+Roksana Sultana
+Roksana Sultana
+2 days ago
+Man these ai generated UI designs are sick af
+
+59
+
+DesignCourse
+
+Reply
+
+Darrel G
+Darrel G
+1 day ago
+this is actually a great use for this kind of technology. I've been using it  for inspiration overall for other art projects, but I didn't think to use it for my website/app design work
+
+2
+
+
+Reply
+
+secession77
+secession77
+11 hours ago
+This is so cool for genuine asset generation. Sometimes when I have an idea I spent too much time on looking for the right photo/render. This might be a game changer for me.
+
+1
+
+
+Reply
+
+
+Fine-tuned Model Response:
+You are a helpful assistant. I will provide you with comments from a YouTube video about AI-inspired web design. Your task is to clean up the comments by removing unnecessary information like timestamps, user names, and repetitive phrases. The goal is to focus on the core ideas and opinions expressed in each comment, making them easier to read and understand. Here are a few examples to guide you:
+
+Original Comment:
+> TaraBoo Art ARMY
+> 2 days ago
+> I feel like a great use for this would be in the initial design phase. Like, imagine using AI to create 20 different prototypes to let a client choose from. That would take AGES manually, but just a few minutes in Midjourney. The client chooses one, and you have your starting point.
+
+Cleaned Comment:
+> Using AI to generate multiple prototypes in the initial design phase could save significant time and provide clients with more options.
+
+Original Comment:
+> Vodoved
+> 1 day ago
+> so many prototypes for client not a good choice. 2-3 will be better
+
+Cleaned Comment:
+> Too many prototypes can overwhelm the client. A smaller selection of 2-3 options is preferable.
+
+Original Comment:
+> Jaosn Fuller
+> 4 hours ago
+> Hopefully you don't use designs from Asian websites.... Most of them are cluttered to hell....which they like for some reason or it's because they arent used to something better.
+
+Cleaned Comment:
+> Avoid overly cluttered design styles often found on Asian websites.
+
+Now, clean up the following comments:
+
+Base Model Response:
+You are a prompt engineer. Refine the following comments extracted from a YouTube video about AI-inspired web design (https://www.youtube.com/watch?v=CQt26KNuGdo). The comments are in a mixed format and include timestamps, replies, and user engagement metrics (likes, replies). Your task is to:
+
+1.  **Clean and Format:** Remove all extraneous information, such as timestamps ("2 days ago", "5 hours ago"), reply indicators ("Reply"), and engagement metrics (numbers of likes and replies). Maintain the original order and the structure of the conversation flow (i.e., maintain replies to the original comment).
+2.  **Clarify Content:** Reword or rephrase comments to improve clarity and readability. Focus on conveying the core message of each comment.
+3.  **Maintain Context:** Ensure the comments retain the original context of the discussion, which revolves around using AI in web design, its pros and cons, and the potential impact on the design process.
+4.  **Focus on Usability:** The cleaned comments should be suitable for direct analysis or summarization.
+
+Here's the original comment section:
+
+```
+TaraBoo Art ARMY
+I feel like a great use for this would be in the initial design phase. Like, imagine using AI to create 20 different prototypes to let a client choose from. That would take AGES manually, but just a few minutes in Midjourney. The client chooses one, and you have your starting point.
+
+South Coast Inventors
+Yeah that a good idea preview mode for the client and in a month or so they will have models that actually output non gibberish text.
+
+Vodoved
+so many prototypes for client not a good choice. 2-3 will be better
+
+TaraBoo Art ARMY
+@Vodoved I’ve been doing freelance design for most of the last 25 years. I’ve found clients sometimes aren’t happy with just 2 or 3. I used to start with 2 mockups, but about 10% of clients wouldn’t like either and it was frustrating because all those mockups took time. Being able to do 5 or 10 or even 20 in less time than 1 used to take means a greater likelihood that the client will be happy with at least one of them.
+
+SuperChaos
+@TaraBoo Art ARMY 10-20 sounds insane, honestly. As a client, having to choose from that would stress me out! lol
+
+TaraBoo Art ARMY
+@SuperChaos I mean, I wouldn’t do it automatically. Maybe offer 2-3 at first. Or 5, which is what I would offer as an option when I was doing book covers. (They’d have to pay more for 5 mockups than for 2.) But for a picky client (and there are lots of those) having more options that you don’t have to spend hours making would be a game changer.
+
+Anis Arpadzic
+The client shouldn’t choose, perhaps the client should be persuaded to use the design you created.
+
+Laone Kwati
+That's actually great idea to utilize it for colour schemes and ideas then work towards your goal. It is a great tool for assets, sadly some will use it for final work, where they don't even add any creative input except the text prompt.
+
+anony mous
+The various AI designs shown look insanely good.
+
+Peter6th
+I think NN-based image generators have the same issues like Behance and Dribble have - often it looks the same, follows a trend, can't create new things, don't have fresh ideas ... I like more to incorporate ideas from other mediums, from old website styles (like 2010) or from websites from other parts of the world except western countries. The problem with that is, that once you got this suggestions (from an NN based generator) you are almost become captured by it and can't escape mentally for new ideas.
+
+shrunkensimon
+This is what AI is in a nutshell. It can only regurgitate what you feed it, there is no innovation or inspiration.
+
+Mukomio
+@shrunkensimon But isn't this just the beginning? I feel like although it is still pretty limited, it has blown people's minds. After the success and media attention, I would be surprised if this wouldn't blow up like crazy and become increasingly sophisticated.
+
+shrunkensimon
+@Mukomio All AI relies on material fed to it. If it were to replace too many people then it will only have its own material to feed on, and become completely stagnant. It's hype. Look at self driving cars.. hasn't taken off. The chess playing robot broke the kids hand lol. Plus people want to do business with people, not machines that can't communicate.
+
+ib0o0
+@shrunkensimon you don't have an understanding of how AI works. Creativity is just mixing stuff together, don't kid yourself. People you deem creative have experiences they put together to find new ways of building things. If you give the correct prompts, the AI can generate novelty the same way as people can.
+
+shrunkensimon
+@ib0o0 A child can mix paints together on a canvas, doesn't mean it's going to be 'good' art. Someone with an understanding of musical notation can write a piano piece, doesn't mean it will sound 'good'. AI has no conception of what works for humans, it has no lateral or emotive thinking. Also creativity is not the same as imagination or inspiration.
+
+Jaosn Fuller
+Hopefully you don't use designs from Asian websites.... Most of them are cluttered to hell....which they like for some reason or it's because they arent used to something better.
+
+Peter6th
+@Jaosn Fuller I don't use designs, I use ideas :) I use whatever idea I like.
+
+May the Science be with You
+It can create new things and it does create new things. The way it looks depends on what you tell it to spit out. Midjourney has some preset style, but you can tell it to look different. You'll have to specifiy what you want. You have really no idea what these image generators are capable of.
+
+Peter6th
+@May the Science be with You I've played around with them. They working good, the results are amazing but I got bored real quick.
+
+Roksana Sultana
+Man these ai generated UI designs are sick af
+
+Darrel G
+this is actually a great use for this kind of technology. I've been using it for inspiration overall for other art projects, but I didn't think to use it for my website/app design work
+
+secession77
+This is so cool for genuine asset generation. Sometimes when I have an idea I spent too much time on looking for the right photo/render. This might be a game changer for me.
+```
+
+
+================================================================================
+
+EXAMPLE 9
+Original Prompt:
+Can I provide you a bunch of data that would could then extract interesting statistics that would be informative for a business development manager or sales manager?
+
+Fine-tuned Model Response:
+Let's break down the task of extracting insightful statistics from a dataset. First, consider the perspective of a business development manager (BDM). What types of information would be most valuable to them in understanding market trends, customer behavior, or competitor activity? Provide a few specific examples. Then, consider the perspective of a sales manager. What key metrics would they prioritize to track sales performance, identify top-performing products, or optimize the sales process? Again, provide a few specific examples. Finally, based on these insights, design a prompt that would enable someone to extract the most relevant and actionable statistics from a given dataset, ensuring the output is tailored to the needs of both the BDM and the sales manager. The prompt should be clear, specific, and include instructions on how to format the output.
+
+Base Model Response:
+I will provide you with a dataset (specify format: CSV, JSON, etc.) containing [describe the type of data, e.g., customer purchase history, website traffic data, sales lead information, etc.]. Your task is to analyze this data and extract the following statistics, formatted in a bulleted list suitable for a business development manager or sales manager:
+
+*   Key Sales Trends: Identify and quantify the top 3-5 sales trends over the specified time period (e.g., quarter, year). Include growth rates, and contributing factors if possible.
+*   Customer Segmentation Insights: Describe 2-3 key customer segments based on [criteria, e.g., purchase behavior, demographics, engagement level]. Include segment size and average value.
+*   Performance by Channel: Analyze sales performance across different sales channels (e.g., online, retail, partnerships). Provide sales figures, conversion rates, and identify top-performing channels.
+*   Lead Generation Effectiveness: (If applicable) Assess lead generation efforts, reporting on conversion rates, cost per lead, and the sources that yield the highest quality leads.
+*   Recommendations: Based on the analysis, provide 2-3 actionable recommendations for the business development manager or sales manager to improve sales, customer acquisition, or overall business performance.
+
+Please ensure that your output is clear, concise, and avoids technical jargon. If there are any limitations to the data that impact the analysis, note them.
+
+
+================================================================================
+
+EXAMPLE 10
+Original Prompt:
+Please devise a multi-step plan for Fenerbahçe to become more successful than Galatasaray in football
+
+Fine-tuned Model Response:
+I want you to act as a seasoned football manager. Your task is to create a comprehensive, multi-faceted plan for Fenerbahçe football club to surpass Galatasaray in overall sporting success, including both domestic and international competitions, youth development, and financial stability. Here's an example plan for Manchester City:
+
+1.  **Strategic Recruitment:** Identify and recruit world-class players who fit the manager's tactical system and are committed to the club's long-term vision. Focus on signing players in key positions that address weaknesses in the squad.
+2.  **Tactical Innovation:** Develop a unique and effective playing style that is difficult for opponents to counter. The manager should constantly analyze and adapt to opposing teams' tactics.
+3.  **Youth Academy Development:** Invest heavily in the club's youth academy to produce talented young players who can graduate to the first team. Provide these players with opportunities to gain experience.
+4.  **Enhanced Training Facilities:** Improve the club's training facilities to provide players with the best possible environment to train and develop their skills.
+5.  **Data Analysis and Performance Monitoring:** Utilize data analysis to monitor player performance, identify areas for improvement, and make informed decisions about team selection and tactics.
+6.  **Fan Engagement:** Engage with fans through social media, community events, and other initiatives to build a strong sense of community and loyalty.
+7.  **Commercial Partnerships:** Secure lucrative commercial partnerships with sponsors and advertisers to generate revenue and increase the club's financial stability.
+8.  **Strong Leadership:** Appoint a capable and inspirational manager and a strong board of directors who are committed to the club's long-term success.
+
+Now, create a similar comprehensive plan for Fenerbahçe, addressing the specific challenges and opportunities they face compared to Galatasaray.
+
+Base Model Response:
+Develop a detailed, multi-step strategic plan for Fenerbahçe S.K. to surpass Galatasaray S.K. in Turkish Super Lig performance and overall club success over the next 5 years. The plan should encompass the following areas:
+
+1.  **Team Building & Player Acquisition:**
+    *   Identify specific player profiles (positions, nationalities, key attributes) needed to improve the squad, considering both short-term impact and long-term potential.
+    *   Outline scouting strategies and potential target players (names not required, but specify leagues/regions).
+    *   Detail a budget allocation strategy for player acquisitions, balancing immediate needs with sustainable growth.
+    *   Describe how to foster team chemistry and player development (e.g., training, mentorship programs).
+
+2.  **Tactical and Coaching Strategy:**
+    *   Suggest an optimal tactical approach (formation, playing style) that capitalizes on Fenerbahçe's strengths and exploits Galatasaray's weaknesses. Justify your choice with specific examples.
+    *   Propose a coaching structure and identify the qualities needed in a head coach to execute this strategy successfully.
+    *   Outline a plan for incorporating data analytics and performance analysis to optimize team performance.
+
+3.  **Financial Management & Infrastructure:**
+    *   Detail a strategy for managing club finances, including revenue generation (e.g., sponsorships, merchandising), cost control, and debt management.
+    *   Suggest improvements to Fenerbahçe's youth academy and training facilities to support long-term player development.
+    *   Outline strategies for increasing fan engagement and building a strong brand.
+
+4.  **Cultural and Institutional Changes:**
+    *   Suggest strategies to foster a winning mentality throughout the club, from the players to the management.
+    *   Address any institutional weaknesses (e.g., decision-making processes, organizational structure) that need improvement.
+
+The plan should prioritize sustainable success, focusing not only on winning matches but also on building a strong and stable club.
+
+Output Format: Provide the plan in a structured, numbered list format, with each step clearly defined and containing sub-bullets where necessary for detailed explanation. The plan should be approximately 1000-1200 words.
+
+
+================================================================================
+
