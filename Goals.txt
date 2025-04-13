@@ -21,3 +21,11 @@ Take ShareGPT data, preproccess and filter it out and get a good dataset, ask mo
 Use Prompt-training dataset to be the template for distinguishing good vs bad prompts and categorize the way/method of calling
 
 Responses, feed in all 3 models and output a better prompt for each of them, Take responses and compare with each other in a grader/rubric to see what ways to improve the most for the specific category. 
+
+
+
+FIRST STEP:
+On the fly prompt engineering to improving response.
+
+SECOND STEP:
+Classifing prompts for what model is the best.
