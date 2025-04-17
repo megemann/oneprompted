@@ -1,0 +1,7 @@
+Step 3
+Fine Tune model using Vertex AI:
+    - No notebook associated with this
+    - Exported files from '../data/Prompt_Training/vertex_ai_fine_tuning_*' to Google Clouds
+    - Fine tuned using the 'train' dataset, created a validation split for validation.
+    - Training Images available in Images
+    - Model not deployed anymore to save resources

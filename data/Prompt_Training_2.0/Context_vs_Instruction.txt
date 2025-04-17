@@ -1,0 +1,10 @@
+How this data was generated:
+I pulled 1000 examples from a 52000 example large dataset of different conversations people have had with chatgpt, 
+and then someone else somewhere stored this information. For this dataset, i preprocessed it so that we have only english messages,
+and the prompts are the first prompt in a conversation, so they have no context other than what is given to them in the prompt. 
+I then went through the data by hand, seperating it into context and instruction. For a guideline for this, I used the following.
+Context: Rigid 'rules' or examples given to the prompt. Things that you want to have left unchanged in the prompt engineering, 
+but may give valuable insight into the problem. Instruction: Portion of the prompt that is to be 'engineered', stating specific 
+instructions and arbitrary rules and suggestions for the model to specify its output. Some examples of context would be code, 
+a general school problem, or an article. A good example of instructions would be giving a certain role for the model to play, 
+saying 'summarize' or 'debug this', and any things that tell the model what to do directly

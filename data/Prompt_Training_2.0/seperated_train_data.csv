@@ -2,14 +2,6 @@ original_prompt,context,instruction,has_context,conversation_id
 I want you to generate a prompt for me identifying the key inputs you would need in order to generate extrememly specific OKRs for a person in  a b2b saas company.,,I want you to generate a prompt for me identifying the key inputs you would need in order to generate extrememly specific OKRs for a person in  a b2b saas company.,False,23321
 "I am the CEO of a C2C app startup. Tell me what I need to know to ensure smooth communication with the development team, and what knowledge I need to help out with development. ",,"I am the CEO of a C2C app startup. Tell me what I need to know to ensure smooth communication with the development team, and what knowledge I need to help out with development. ",False,25547
 "
-  
-    
-      
-      
-      1 / 1
-    
-    
-      
         simplify: The term Product is mostly used as a need-satisfying entity. It represents solution to customers,
 problems. In the words of Peter Drucker, the product remains mere raw material or at the best an
 intermediate till it is not bought or consumed. Hence mostly they comprise of both tangible and
@@ -28,18 +20,6 @@ William Stanton, “Product is a complex of tangible and intangible attributes, 
 packaging, colour, price, prestige and services that satisfy needs and wants of people”.
 It is defined as a good or service that most closely meets the requirements of a particular market
 and yields enough profit to justify its continued existence
-
-      
-      
-        
-            
-            
-          
-            
-            
-          
-      
-    
   
 ","The term Product is mostly used as a need-satisfying entity. It represents solution to customers,
 problems. In the words of Peter Drucker, the product remains mere raw material or at the best an
