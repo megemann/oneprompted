@@ -51,6 +51,8 @@ Prompt Training 2.0 notebook:
     
     Post Processing:
         - Look for verbosity flags such as 'Improved Prompts'
+        - Remove substrings from obviously verbose prompts
+        - 
             
 
     
