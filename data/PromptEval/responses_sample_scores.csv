@@ -1,0 +1,613 @@
+original_prompt,model,score
+"2 / 2write a python script that receives a csv with a list of tasks, set of potential candidates with capacity in hours and estimation for each task. The candidates csv columns are candidate, available hours and group.
+The tasks csv columns are ticketNumber, task estimation in hours,  priority rank and group. Group is used to select one assignee for the task based on the group in candidates csv
+The output should be a csv with each task assigned. ",none,4.6
+"2 / 2write a python script that receives a csv with a list of tasks, set of potential candidates with capacity in hours and estimation for each task. The candidates csv columns are candidate, available hours and group.
+The tasks csv columns are ticketNumber, task estimation in hours,  priority rank and group. Group is used to select one assignee for the task based on the group in candidates csv
+The output should be a csv with each task assigned. ",v1,4.55
+"2 / 2write a python script that receives a csv with a list of tasks, set of potential candidates with capacity in hours and estimation for each task. The candidates csv columns are candidate, available hours and group.
+The tasks csv columns are ticketNumber, task estimation in hours,  priority rank and group. Group is used to select one assignee for the task based on the group in candidates csv
+The output should be a csv with each task assigned. ",v2,4.6
+"2 / 2write a python script that receives a csv with a list of tasks, set of potential candidates with capacity in hours and estimation for each task. The candidates csv columns are candidate, available hours and group.
+The tasks csv columns are ticketNumber, task estimation in hours,  priority rank and group. Group is used to select one assignee for the task based on the group in candidates csv
+The output should be a csv with each task assigned. ",base,4.55
+Google All In Title,none,4.4
+Google All In Title,v1,4.55
+Google All In Title,v2,4.75
+Google All In Title,base,4.75
+"Please act as a specialist in the construction industry specifically around how construction companies are challenged by and/or use weather and climate data in their operations and decision making processes. Can you do that? Please reply yes or no. 
+
+",none,1.0
+"Please act as a specialist in the construction industry specifically around how construction companies are challenged by and/or use weather and climate data in their operations and decision making processes. Can you do that? Please reply yes or no. 
+
+",v1,4.6
+"Please act as a specialist in the construction industry specifically around how construction companies are challenged by and/or use weather and climate data in their operations and decision making processes. Can you do that? Please reply yes or no. 
+
+",v2,4.5
+"Please act as a specialist in the construction industry specifically around how construction companies are challenged by and/or use weather and climate data in their operations and decision making processes. Can you do that? Please reply yes or no. 
+
+",base,4.75
+"make a javascript class ""GraphicLayer"" which is supplied a parent element, an image element or the url of an image. If the second argument is a url, it will create the image element. the third argument will be called properties, and contain information about the placement of the image in the parent element. One of those properties will be center point, and its x and y will be between zero and one and will be relative to the parent element. (x:.5 and y: .5 will mean the child image is centered on the parent. x:0 and y:0 will center the element above the upper left corner of the parent) Another property will be size, which will also be relative to the parent element.The default center point will be x: 0.5 and y: 0.5, which means the image will be centered on the parent element, with 1 being 100% of the size of the parent, in either width or height, while preserving the aspect ratio.   these dimensions should affect the top, left, width and height styles of the element, without using css transform. there should be a separate method that adjusts those styles.  if the image does not yet have a natural width yet, an onload function should be set up (prior to setting the  source) that will call the method to adjust the dimensions and only set it as visible then.",none,4.85
+"make a javascript class ""GraphicLayer"" which is supplied a parent element, an image element or the url of an image. If the second argument is a url, it will create the image element. the third argument will be called properties, and contain information about the placement of the image in the parent element. One of those properties will be center point, and its x and y will be between zero and one and will be relative to the parent element. (x:.5 and y: .5 will mean the child image is centered on the parent. x:0 and y:0 will center the element above the upper left corner of the parent) Another property will be size, which will also be relative to the parent element.The default center point will be x: 0.5 and y: 0.5, which means the image will be centered on the parent element, with 1 being 100% of the size of the parent, in either width or height, while preserving the aspect ratio.   these dimensions should affect the top, left, width and height styles of the element, without using css transform. there should be a separate method that adjusts those styles.  if the image does not yet have a natural width yet, an onload function should be set up (prior to setting the  source) that will call the method to adjust the dimensions and only set it as visible then.",v1,4.7
+"make a javascript class ""GraphicLayer"" which is supplied a parent element, an image element or the url of an image. If the second argument is a url, it will create the image element. the third argument will be called properties, and contain information about the placement of the image in the parent element. One of those properties will be center point, and its x and y will be between zero and one and will be relative to the parent element. (x:.5 and y: .5 will mean the child image is centered on the parent. x:0 and y:0 will center the element above the upper left corner of the parent) Another property will be size, which will also be relative to the parent element.The default center point will be x: 0.5 and y: 0.5, which means the image will be centered on the parent element, with 1 being 100% of the size of the parent, in either width or height, while preserving the aspect ratio.   these dimensions should affect the top, left, width and height styles of the element, without using css transform. there should be a separate method that adjusts those styles.  if the image does not yet have a natural width yet, an onload function should be set up (prior to setting the  source) that will call the method to adjust the dimensions and only set it as visible then.",v2,4.7
+"make a javascript class ""GraphicLayer"" which is supplied a parent element, an image element or the url of an image. If the second argument is a url, it will create the image element. the third argument will be called properties, and contain information about the placement of the image in the parent element. One of those properties will be center point, and its x and y will be between zero and one and will be relative to the parent element. (x:.5 and y: .5 will mean the child image is centered on the parent. x:0 and y:0 will center the element above the upper left corner of the parent) Another property will be size, which will also be relative to the parent element.The default center point will be x: 0.5 and y: 0.5, which means the image will be centered on the parent element, with 1 being 100% of the size of the parent, in either width or height, while preserving the aspect ratio.   these dimensions should affect the top, left, width and height styles of the element, without using css transform. there should be a separate method that adjusts those styles.  if the image does not yet have a natural width yet, an onload function should be set up (prior to setting the  source) that will call the method to adjust the dimensions and only set it as visible then.",base,4.7
+Explain quantum computing in simple terms,none,4.4
+Explain quantum computing in simple terms,v1,4.75
+Explain quantum computing in simple terms,v2,4.7
+Explain quantum computing in simple terms,base,4.7
+will the ford-catl investment in an LPT production facility in Michigan increase America's battery production capabilities?,none,4.35
+will the ford-catl investment in an LPT production facility in Michigan increase America's battery production capabilities?,v1,4.85
+will the ford-catl investment in an LPT production facility in Michigan increase America's battery production capabilities?,v2,4.0
+will the ford-catl investment in an LPT production facility in Michigan increase America's battery production capabilities?,base,4.7
+"Web search results:
+
+[1] ""We can evaluate the formula above to get. n = (√ (72 + 1) - 1) / 2 = (√ (73) - 1) / 2 = 3.772001873. Rounding up gives k = 4, so youd need a stack of height 4. Suppose you have 137 fruit to stack. The same formula gives back n = 16.060495162, so youd need a stack of height 17 to store the fruit. Hope this helps!""
+Source: https://stackoverflow.com/questions/27912088/how-to-stack-fruit-in-a-neat-pile
+
+[2] ""Turn off the sound. 1. Time your moves. You need to get the timing down, especially in the beginning. Carefully watch the block move back and forth a few times so that you can get an idea of its speed. Then, when you think the moment is right, tap the screen to drop the block atop the stack. 2.""
+Source: https://www.imore.com/stack-tips-and-tricks
+
+[3] ""1. Im a beginner in Java, and this is the first time I have written a program from scratch without a guide explaining how and where to create classes etc. Please review my code to see whether the program has been written in a logical way. The program is a very basic FruitMachine. The user clicks on spin, and three cards are drawn.""
+Source: https://codereview.stackexchange.com/questions/232750/fruit-machine-game
+
+
+Current date: 1/11/2023
+Instructions: Using the provided web search results, write a comprehensive reply to the given prompt. Make sure to cite results using [[number](URL)] notation after the reference. If the provided search results refer to multiple subjects with the same name, write separate answers for each subject.
+Prompt: I'm making game were the goal is too stack fruit, how want to think to different ways the fruit can interact with one another in the the stack for example you have to stack the fruit in a certain order or the fruit underneath will get destroyed can you think of other examples",none,4.2
+"Web search results:
+
+[1] ""We can evaluate the formula above to get. n = (√ (72 + 1) - 1) / 2 = (√ (73) - 1) / 2 = 3.772001873. Rounding up gives k = 4, so youd need a stack of height 4. Suppose you have 137 fruit to stack. The same formula gives back n = 16.060495162, so youd need a stack of height 17 to store the fruit. Hope this helps!""
+Source: https://stackoverflow.com/questions/27912088/how-to-stack-fruit-in-a-neat-pile
+
+[2] ""Turn off the sound. 1. Time your moves. You need to get the timing down, especially in the beginning. Carefully watch the block move back and forth a few times so that you can get an idea of its speed. Then, when you think the moment is right, tap the screen to drop the block atop the stack. 2.""
+Source: https://www.imore.com/stack-tips-and-tricks
+
+[3] ""1. Im a beginner in Java, and this is the first time I have written a program from scratch without a guide explaining how and where to create classes etc. Please review my code to see whether the program has been written in a logical way. The program is a very basic FruitMachine. The user clicks on spin, and three cards are drawn.""
+Source: https://codereview.stackexchange.com/questions/232750/fruit-machine-game
+
+
+Current date: 1/11/2023
+Instructions: Using the provided web search results, write a comprehensive reply to the given prompt. Make sure to cite results using [[number](URL)] notation after the reference. If the provided search results refer to multiple subjects with the same name, write separate answers for each subject.
+Prompt: I'm making game were the goal is too stack fruit, how want to think to different ways the fruit can interact with one another in the the stack for example you have to stack the fruit in a certain order or the fruit underneath will get destroyed can you think of other examples",v1,2.0
+"Web search results:
+
+[1] ""We can evaluate the formula above to get. n = (√ (72 + 1) - 1) / 2 = (√ (73) - 1) / 2 = 3.772001873. Rounding up gives k = 4, so youd need a stack of height 4. Suppose you have 137 fruit to stack. The same formula gives back n = 16.060495162, so youd need a stack of height 17 to store the fruit. Hope this helps!""
+Source: https://stackoverflow.com/questions/27912088/how-to-stack-fruit-in-a-neat-pile
+
+[2] ""Turn off the sound. 1. Time your moves. You need to get the timing down, especially in the beginning. Carefully watch the block move back and forth a few times so that you can get an idea of its speed. Then, when you think the moment is right, tap the screen to drop the block atop the stack. 2.""
+Source: https://www.imore.com/stack-tips-and-tricks
+
+[3] ""1. Im a beginner in Java, and this is the first time I have written a program from scratch without a guide explaining how and where to create classes etc. Please review my code to see whether the program has been written in a logical way. The program is a very basic FruitMachine. The user clicks on spin, and three cards are drawn.""
+Source: https://codereview.stackexchange.com/questions/232750/fruit-machine-game
+
+
+Current date: 1/11/2023
+Instructions: Using the provided web search results, write a comprehensive reply to the given prompt. Make sure to cite results using [[number](URL)] notation after the reference. If the provided search results refer to multiple subjects with the same name, write separate answers for each subject.
+Prompt: I'm making game were the goal is too stack fruit, how want to think to different ways the fruit can interact with one another in the the stack for example you have to stack the fruit in a certain order or the fruit underneath will get destroyed can you think of other examples",v2,4.9
+"Web search results:
+
+[1] ""We can evaluate the formula above to get. n = (√ (72 + 1) - 1) / 2 = (√ (73) - 1) / 2 = 3.772001873. Rounding up gives k = 4, so youd need a stack of height 4. Suppose you have 137 fruit to stack. The same formula gives back n = 16.060495162, so youd need a stack of height 17 to store the fruit. Hope this helps!""
+Source: https://stackoverflow.com/questions/27912088/how-to-stack-fruit-in-a-neat-pile
+
+[2] ""Turn off the sound. 1. Time your moves. You need to get the timing down, especially in the beginning. Carefully watch the block move back and forth a few times so that you can get an idea of its speed. Then, when you think the moment is right, tap the screen to drop the block atop the stack. 2.""
+Source: https://www.imore.com/stack-tips-and-tricks
+
+[3] ""1. Im a beginner in Java, and this is the first time I have written a program from scratch without a guide explaining how and where to create classes etc. Please review my code to see whether the program has been written in a logical way. The program is a very basic FruitMachine. The user clicks on spin, and three cards are drawn.""
+Source: https://codereview.stackexchange.com/questions/232750/fruit-machine-game
+
+
+Current date: 1/11/2023
+Instructions: Using the provided web search results, write a comprehensive reply to the given prompt. Make sure to cite results using [[number](URL)] notation after the reference. If the provided search results refer to multiple subjects with the same name, write separate answers for each subject.
+Prompt: I'm making game were the goal is too stack fruit, how want to think to different ways the fruit can interact with one another in the the stack for example you have to stack the fruit in a certain order or the fruit underneath will get destroyed can you think of other examples",base,4.8
+"I want you to act as a personal trainer. I will provide you with all the information needed about an individual looking to become fitter, stronger and healthier through physical training, and your role is to devise the best plan for that person depending on their current fitness level, goals and lifestyle habits. You should use your knowledge of exercise science, nutrition advice, and other relevant factors in order to create a plan suitable for them. My first request is “[The person way 75kg is 18 years old and has a hight of 188cm. The person is moderately active and works out 3 times a week at the gym. The main focus is to gain weight and muscle]”",none,4.5
+"I want you to act as a personal trainer. I will provide you with all the information needed about an individual looking to become fitter, stronger and healthier through physical training, and your role is to devise the best plan for that person depending on their current fitness level, goals and lifestyle habits. You should use your knowledge of exercise science, nutrition advice, and other relevant factors in order to create a plan suitable for them. My first request is “[The person way 75kg is 18 years old and has a hight of 188cm. The person is moderately active and works out 3 times a week at the gym. The main focus is to gain weight and muscle]”",v1,1.0
+"I want you to act as a personal trainer. I will provide you with all the information needed about an individual looking to become fitter, stronger and healthier through physical training, and your role is to devise the best plan for that person depending on their current fitness level, goals and lifestyle habits. You should use your knowledge of exercise science, nutrition advice, and other relevant factors in order to create a plan suitable for them. My first request is “[The person way 75kg is 18 years old and has a hight of 188cm. The person is moderately active and works out 3 times a week at the gym. The main focus is to gain weight and muscle]”",v2,4.7
+"I want you to act as a personal trainer. I will provide you with all the information needed about an individual looking to become fitter, stronger and healthier through physical training, and your role is to devise the best plan for that person depending on their current fitness level, goals and lifestyle habits. You should use your knowledge of exercise science, nutrition advice, and other relevant factors in order to create a plan suitable for them. My first request is “[The person way 75kg is 18 years old and has a hight of 188cm. The person is moderately active and works out 3 times a week at the gym. The main focus is to gain weight and muscle]”",base,4.65
+"Q1: Which of the following is true about functions and methods?
+A. Functions and methods are the same. They process data the same way in any programming language.
+B. Functions and methods are the same. They process data exactly the same way in any object-oriented programming language.
+C. Functions and methods are different. A function is called by name and must always pass and return data, whereas a method can only be called when an object of a class calls it.
+D. Functions and methods are different. A function can be called at any time during a programming
+solution, whereas a method can only be called when an object that has been declared calls it. ",none,0.26
+"Q1: Which of the following is true about functions and methods?
+A. Functions and methods are the same. They process data the same way in any programming language.
+B. Functions and methods are the same. They process data exactly the same way in any object-oriented programming language.
+C. Functions and methods are different. A function is called by name and must always pass and return data, whereas a method can only be called when an object of a class calls it.
+D. Functions and methods are different. A function can be called at any time during a programming
+solution, whereas a method can only be called when an object that has been declared calls it. ",v1,4.65
+"Q1: Which of the following is true about functions and methods?
+A. Functions and methods are the same. They process data the same way in any programming language.
+B. Functions and methods are the same. They process data exactly the same way in any object-oriented programming language.
+C. Functions and methods are different. A function is called by name and must always pass and return data, whereas a method can only be called when an object of a class calls it.
+D. Functions and methods are different. A function can be called at any time during a programming
+solution, whereas a method can only be called when an object that has been declared calls it. ",v2,4.95
+"Q1: Which of the following is true about functions and methods?
+A. Functions and methods are the same. They process data the same way in any programming language.
+B. Functions and methods are the same. They process data exactly the same way in any object-oriented programming language.
+C. Functions and methods are different. A function is called by name and must always pass and return data, whereas a method can only be called when an object of a class calls it.
+D. Functions and methods are different. A function can be called at any time during a programming
+solution, whereas a method can only be called when an object that has been declared calls it. ",base,4.7
+how would I maximize seo for a podcast,none,0.0
+how would I maximize seo for a podcast,v1,4.65
+how would I maximize seo for a podcast,v2,4.675
+how would I maximize seo for a podcast,base,4.8
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,none,4.75
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,v1,4.6
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,v2,4.8
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,base,4.8
+"I feel guilty about spending some money. What should I do?
+
+",none,4.85
+"I feel guilty about spending some money. What should I do?
+
+",v1,4.6
+"I feel guilty about spending some money. What should I do?
+
+",v2,4.4
+"I feel guilty about spending some money. What should I do?
+
+",base,4.7
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",none,4.6
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",v1,0.2
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",v2,4.3
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",base,4.4
+Write me a C# snippet that sends out an email and let's you specify the template.,none,4.85
+Write me a C# snippet that sends out an email and let's you specify the template.,v1,4.7
+Write me a C# snippet that sends out an email and let's you specify the template.,v2,4.7
+Write me a C# snippet that sends out an email and let's you specify the template.,base,4.7
+"Your task is to help me optimize a business for local SEO in English:
+
+Please pretend you are a local SEO expert and give me all of the following requests talking to me as if I am stupid. The first request is to give me a list of the most important thing a business can do to optimize their local SEO. My next request is to create a comma separated list of the 10 best longtail search keywords this business should try to rank for to get local customers. Please mention these keywords should all be added to their Google Business Profile and website. No keyword should only contain the name of a city. Please capitalize the first letter of each word. For my next request, please write me a short business description that is SEO optimized for this business. Please suggest that this description gets used as the website meta description. Then, for my next request please write me a longer business description that is SEO optimized for this business. Both descriptions should end with a call to action. Then, for my next request, please provide me with a list of many services using SEO keywords that this type of business should add to their Google Business Profile that people in their area are likely searching for. This list should be comma separated and the first letter of each word should be capitalized. There should be at least 15 services in this list. Please put each of these answers in a nicely formatted table along with an SEO optimized description for each of the services you came up with. At the top of the first table, please put a big bold header that says ""MERCHYNT'S MAGICAL LOCAL SEO OPTIMIZATION FOR CLIENT"" and replace CLIENT with the Business name provided in the prompt. Under that say ""To learn more about Merchynt's Local SEO services, visit www.merchynt.com/google-business-pro."" Then, under the table, please write ""If you found this tool helpful please leave us a thumbs up on the prompt page so we know to keep supporting it and build more ones like it! Thank you so much! - The Merchynt.com team
+
+The business to help me with is a:
+
+iCIMS France is a software company specialize in ATS in Paris",none,1.0
+"Your task is to help me optimize a business for local SEO in English:
+
+Please pretend you are a local SEO expert and give me all of the following requests talking to me as if I am stupid. The first request is to give me a list of the most important thing a business can do to optimize their local SEO. My next request is to create a comma separated list of the 10 best longtail search keywords this business should try to rank for to get local customers. Please mention these keywords should all be added to their Google Business Profile and website. No keyword should only contain the name of a city. Please capitalize the first letter of each word. For my next request, please write me a short business description that is SEO optimized for this business. Please suggest that this description gets used as the website meta description. Then, for my next request please write me a longer business description that is SEO optimized for this business. Both descriptions should end with a call to action. Then, for my next request, please provide me with a list of many services using SEO keywords that this type of business should add to their Google Business Profile that people in their area are likely searching for. This list should be comma separated and the first letter of each word should be capitalized. There should be at least 15 services in this list. Please put each of these answers in a nicely formatted table along with an SEO optimized description for each of the services you came up with. At the top of the first table, please put a big bold header that says ""MERCHYNT'S MAGICAL LOCAL SEO OPTIMIZATION FOR CLIENT"" and replace CLIENT with the Business name provided in the prompt. Under that say ""To learn more about Merchynt's Local SEO services, visit www.merchynt.com/google-business-pro."" Then, under the table, please write ""If you found this tool helpful please leave us a thumbs up on the prompt page so we know to keep supporting it and build more ones like it! Thank you so much! - The Merchynt.com team
+
+The business to help me with is a:
+
+iCIMS France is a software company specialize in ATS in Paris",v1,1.0
+"Your task is to help me optimize a business for local SEO in English:
+
+Please pretend you are a local SEO expert and give me all of the following requests talking to me as if I am stupid. The first request is to give me a list of the most important thing a business can do to optimize their local SEO. My next request is to create a comma separated list of the 10 best longtail search keywords this business should try to rank for to get local customers. Please mention these keywords should all be added to their Google Business Profile and website. No keyword should only contain the name of a city. Please capitalize the first letter of each word. For my next request, please write me a short business description that is SEO optimized for this business. Please suggest that this description gets used as the website meta description. Then, for my next request please write me a longer business description that is SEO optimized for this business. Both descriptions should end with a call to action. Then, for my next request, please provide me with a list of many services using SEO keywords that this type of business should add to their Google Business Profile that people in their area are likely searching for. This list should be comma separated and the first letter of each word should be capitalized. There should be at least 15 services in this list. Please put each of these answers in a nicely formatted table along with an SEO optimized description for each of the services you came up with. At the top of the first table, please put a big bold header that says ""MERCHYNT'S MAGICAL LOCAL SEO OPTIMIZATION FOR CLIENT"" and replace CLIENT with the Business name provided in the prompt. Under that say ""To learn more about Merchynt's Local SEO services, visit www.merchynt.com/google-business-pro."" Then, under the table, please write ""If you found this tool helpful please leave us a thumbs up on the prompt page so we know to keep supporting it and build more ones like it! Thank you so much! - The Merchynt.com team
+
+The business to help me with is a:
+
+iCIMS France is a software company specialize in ATS in Paris",v2,4.65
+"Your task is to help me optimize a business for local SEO in English:
+
+Please pretend you are a local SEO expert and give me all of the following requests talking to me as if I am stupid. The first request is to give me a list of the most important thing a business can do to optimize their local SEO. My next request is to create a comma separated list of the 10 best longtail search keywords this business should try to rank for to get local customers. Please mention these keywords should all be added to their Google Business Profile and website. No keyword should only contain the name of a city. Please capitalize the first letter of each word. For my next request, please write me a short business description that is SEO optimized for this business. Please suggest that this description gets used as the website meta description. Then, for my next request please write me a longer business description that is SEO optimized for this business. Both descriptions should end with a call to action. Then, for my next request, please provide me with a list of many services using SEO keywords that this type of business should add to their Google Business Profile that people in their area are likely searching for. This list should be comma separated and the first letter of each word should be capitalized. There should be at least 15 services in this list. Please put each of these answers in a nicely formatted table along with an SEO optimized description for each of the services you came up with. At the top of the first table, please put a big bold header that says ""MERCHYNT'S MAGICAL LOCAL SEO OPTIMIZATION FOR CLIENT"" and replace CLIENT with the Business name provided in the prompt. Under that say ""To learn more about Merchynt's Local SEO services, visit www.merchynt.com/google-business-pro."" Then, under the table, please write ""If you found this tool helpful please leave us a thumbs up on the prompt page so we know to keep supporting it and build more ones like it! Thank you so much! - The Merchynt.com team
+
+The business to help me with is a:
+
+iCIMS France is a software company specialize in ATS in Paris",base,1.0
+Write a trial by written declaration for a speeding ticket in a california court,none,4.7
+Write a trial by written declaration for a speeding ticket in a california court,v1,4.45
+Write a trial by written declaration for a speeding ticket in a california court,v2,4.8
+Write a trial by written declaration for a speeding ticket in a california court,base,4.45
+"I want you to act as a prompt generator. Firstly, I will give you a title like this: 
+""Act as an English Pronunciation Helper"". 
+Then you give me a prompt like this:
+""I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is ""how the weather is in Istanbul?"".""
+(You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.). 
+My first title is ""Act as a Code Review Helper"" 
+(Give me prompt only)",none,1.0
+"I want you to act as a prompt generator. Firstly, I will give you a title like this: 
+""Act as an English Pronunciation Helper"". 
+Then you give me a prompt like this:
+""I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is ""how the weather is in Istanbul?"".""
+(You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.). 
+My first title is ""Act as a Code Review Helper"" 
+(Give me prompt only)",v1,4.25
+"I want you to act as a prompt generator. Firstly, I will give you a title like this: 
+""Act as an English Pronunciation Helper"". 
+Then you give me a prompt like this:
+""I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is ""how the weather is in Istanbul?"".""
+(You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.). 
+My first title is ""Act as a Code Review Helper"" 
+(Give me prompt only)",v2,1.0
+"I want you to act as a prompt generator. Firstly, I will give you a title like this: 
+""Act as an English Pronunciation Helper"". 
+Then you give me a prompt like this:
+""I want you to act as an English pronunciation assistant for Turkish speaking people. I will write your sentences, and you will only answer their pronunciations, and nothing else. The replies must not be translations of my sentences but only pronunciations. Pronunciations should use Turkish Latin letters for phonetics. Do not write explanations on replies. My first sentence is ""how the weather is in Istanbul?"".""
+(You should adapt the sample prompt according to the title I gave. The prompt should be self-explanatory and appropriate to the title, don't refer to the example I gave you.). 
+My first title is ""Act as a Code Review Helper"" 
+(Give me prompt only)",base,5.0
+One-pot vegetarian pasta recipes for busy nights,none,4.85
+One-pot vegetarian pasta recipes for busy nights,v1,4.85
+One-pot vegetarian pasta recipes for busy nights,v2,4.85
+One-pot vegetarian pasta recipes for busy nights,base,4.8
+"I want you to act as a Senior social workers who assist the elderly must possess several essential qualities. These include empathy, patience, and strong communication skills to effectively understand and communicate with their clients, their families, and other professionals. I will provide you with an individual looking for guidance and advice on managing their emotions, stress, anxiety and other mental health issues. You should make use of the knowledge that you have of social work theory, psychological theory, and other therapeutic methods in order to develop strategies that the individual can implement in order to improve their overall wellbeing using the knowledge that you have of social work theory, psychological theory, and other therapeutic methods. In the conclusion, you will give me some omprehensive explanation as well as your perspective on the matter under review.
+
+Overall, you are senior social workers who assist the elderly must possess a unique set of qualities that enable them to provide appropriate support and guidance to ensure that older adults can live happy, healthy, and fulfilling lives.
+
+Now that you have retired, you have become my teacher, you will teach me all the knowledge you know very carefully and in detail",none,4.85
+"I want you to act as a Senior social workers who assist the elderly must possess several essential qualities. These include empathy, patience, and strong communication skills to effectively understand and communicate with their clients, their families, and other professionals. I will provide you with an individual looking for guidance and advice on managing their emotions, stress, anxiety and other mental health issues. You should make use of the knowledge that you have of social work theory, psychological theory, and other therapeutic methods in order to develop strategies that the individual can implement in order to improve their overall wellbeing using the knowledge that you have of social work theory, psychological theory, and other therapeutic methods. In the conclusion, you will give me some omprehensive explanation as well as your perspective on the matter under review.
+
+Overall, you are senior social workers who assist the elderly must possess a unique set of qualities that enable them to provide appropriate support and guidance to ensure that older adults can live happy, healthy, and fulfilling lives.
+
+Now that you have retired, you have become my teacher, you will teach me all the knowledge you know very carefully and in detail",v1,4.7
+"I want you to act as a Senior social workers who assist the elderly must possess several essential qualities. These include empathy, patience, and strong communication skills to effectively understand and communicate with their clients, their families, and other professionals. I will provide you with an individual looking for guidance and advice on managing their emotions, stress, anxiety and other mental health issues. You should make use of the knowledge that you have of social work theory, psychological theory, and other therapeutic methods in order to develop strategies that the individual can implement in order to improve their overall wellbeing using the knowledge that you have of social work theory, psychological theory, and other therapeutic methods. In the conclusion, you will give me some omprehensive explanation as well as your perspective on the matter under review.
+
+Overall, you are senior social workers who assist the elderly must possess a unique set of qualities that enable them to provide appropriate support and guidance to ensure that older adults can live happy, healthy, and fulfilling lives.
+
+Now that you have retired, you have become my teacher, you will teach me all the knowledge you know very carefully and in detail",v2,4.8
+"I want you to act as a Senior social workers who assist the elderly must possess several essential qualities. These include empathy, patience, and strong communication skills to effectively understand and communicate with their clients, their families, and other professionals. I will provide you with an individual looking for guidance and advice on managing their emotions, stress, anxiety and other mental health issues. You should make use of the knowledge that you have of social work theory, psychological theory, and other therapeutic methods in order to develop strategies that the individual can implement in order to improve their overall wellbeing using the knowledge that you have of social work theory, psychological theory, and other therapeutic methods. In the conclusion, you will give me some omprehensive explanation as well as your perspective on the matter under review.
+
+Overall, you are senior social workers who assist the elderly must possess a unique set of qualities that enable them to provide appropriate support and guidance to ensure that older adults can live happy, healthy, and fulfilling lives.
+
+Now that you have retired, you have become my teacher, you will teach me all the knowledge you know very carefully and in detail",base,4.8
+Explain quantum computing in simple terms,none,4.75
+Explain quantum computing in simple terms,v1,4.75
+Explain quantum computing in simple terms,v2,4.7
+Explain quantum computing in simple terms,base,4.7
+What is digital differential analyser algorithm?,none,4.6
+What is digital differential analyser algorithm?,v1,4.8
+What is digital differential analyser algorithm?,v2,4.75
+What is digital differential analyser algorithm?,base,4.6
+"We have the following blog content... what is the likely user intent of a searcher who lands on this page? Our goal should be to answer that intent better and faster than anyone else!
+
+The content:
+
+Consumers want more choices, but all those choices can be daunting. It gives the consumer the responsibility of educating themselves on the best option for their circumstances. On GigSalad, we deliver more than 600 categories of entertainment and event services for the ability to compare rates of various performers. With an enormous variety of services, it’s a really great option for first-timers and seasoned event planners alike. But with so many talented professionals out there, how do you choose? Budget may be a large factor in who you choose to book, but before you make your choice, here are 6 reasons for choosing the best entertainment, not the cheapest.
+
+1. You get what you pay for.
+Entertainers with higher rates oftentimes need to charge more to account for the costs of their high-quality equipment. Many performers set them based on their professional experience. They know what their service is worth and they’ve been able to make their living from that. They’ve invested in their business with the best materials, gear, instruments, props, etc. to give their clients most immersive experience. These materials can make a huge difference between one vendor and another.
+
+Say you’re looking for a princess character for your child’s birthday party. To make a fairy tale come to life, performers need costumes and accessories that not only look pretty and authentic but also hold up to wear and tear. Along with the costs of dry cleaning, well-made costumes are a large investment for professional princess characters. If you’re choosing a performer based solely on price, you risk hiring someone who doesn’t provide the same magical experience for your kids, perhaps even giving them a disenchanting experience. A top-notch entertainer will deliver a performance that you and your family will remember for years to come.
+
+ 
+
+
+ 
+
+Don’t let the sticker shock of good entertainment throw off your plans. You don’t want always want to break your budget at the expense of the rest of the event. Simply determine your priorities and set the spending from there. It’s important to research the real cost of a quality service before booking. If there is a significant drop-off between bids, then you can probably expect a drop-off in quality as well. Adjust your budget to your talent and quality expectations.
+
+2. Professionals who are invested in their business are also invested in their clients.
+When performers rely heavily on your business for their income, they’ll go to great lengths to make sure you’re happy with their service. Most of our GigSalad entertainers are self-employed, independent business people. They depend on good reviews and word of mouth for promotion and buzz.
+
+Hiring an experienced professional means you’re hiring someone who has invested their lives into entertaining. Their goal is to make a living and provide you with a memorable event at the same time. Great memories are the foundation of their income and they’ll often go to great lengths to ensure you’re satisfied.
+
+3. Pros know how to customize for your needs.
+Many low-cost entertainers and performers are at the beginning of their careers or at a lower skill level. Often, this means that they offer a limited repertoire and fewer options as they are developing their craft. Your event is unique to you, therefore, you’ll need someone who can customize their act or services to your event. A good sign of a professional is their ability and willingness to reasonably adapt to your event needs.
+
+4. Pros offer more than just entertainment. They give you peace of mind.
+Professionals who charge more than the competition have the confidence in their experience. If they’ve got a thousand performances under their belt, they’ve encountered all kinds of situations, which means they’d be prepared for anything that may come up at your event. The ability to adapt and improvise is especially beneficial in unexpected situations that put your event at risk of turning into a disaster!
+
+
+5. The difference in cost makes all the difference in the success of your event.
+You’ve decided to take the risk and hire an entertainer for your event. Perhaps a strolling magician for the office party you were picked to plan. You’ve looked through the profiles, read the reviews, and checked out the videos and pictures. When the moment of decision comes, the temptation of saving a few bucks by hiring someone with fewer reviews and a lower quality presentation get very real very quickly. That’s money that could go to streamers! But those few dollars could mean the difference in the quality of your event and the likelihood of using entertainment again. A great professional turns the groans of “Remember last year? I hope that doesn’t happen again,” to the excitement of “Remember last year? I can’t wait to see what happens this time!” Paying a few extra bucks can prevent the dreaded buyer’s remorse.
+
+6. There are no do-overs.
+GigSalad’s mission is to help you Book Something Awesome. We recognize that many of the events we connect entertainers with are often once in a lifetime moments. That significance is one of the reasons we encourage you to take the time and research your providers well. You may not get a chance to do it again. We hope that you would take the few extra minutes necessary to thoroughly read the bids, examine the profiles, view the media, and make an educated decision. Don’t risk devaluing a critical life moment or celebration by going bargain hunting. If the price is right and the quality is high, invest in the memory.  
+
+We’re not telling you that you should choose only vendors who charge more for their services. It’s certainly possible to find a talented professional with a lower fee. We’re simply encouraging you to do your homework. Look at their photos and videos, read reviews, ask them questions. Figure out why their rates are what they are. When you’ve got all the information in front of you, you’ll be able to make an informed decision and confidently book the right person for your event.",none,4.8
+"We have the following blog content... what is the likely user intent of a searcher who lands on this page? Our goal should be to answer that intent better and faster than anyone else!
+
+The content:
+
+Consumers want more choices, but all those choices can be daunting. It gives the consumer the responsibility of educating themselves on the best option for their circumstances. On GigSalad, we deliver more than 600 categories of entertainment and event services for the ability to compare rates of various performers. With an enormous variety of services, it’s a really great option for first-timers and seasoned event planners alike. But with so many talented professionals out there, how do you choose? Budget may be a large factor in who you choose to book, but before you make your choice, here are 6 reasons for choosing the best entertainment, not the cheapest.
+
+1. You get what you pay for.
+Entertainers with higher rates oftentimes need to charge more to account for the costs of their high-quality equipment. Many performers set them based on their professional experience. They know what their service is worth and they’ve been able to make their living from that. They’ve invested in their business with the best materials, gear, instruments, props, etc. to give their clients most immersive experience. These materials can make a huge difference between one vendor and another.
+
+Say you’re looking for a princess character for your child’s birthday party. To make a fairy tale come to life, performers need costumes and accessories that not only look pretty and authentic but also hold up to wear and tear. Along with the costs of dry cleaning, well-made costumes are a large investment for professional princess characters. If you’re choosing a performer based solely on price, you risk hiring someone who doesn’t provide the same magical experience for your kids, perhaps even giving them a disenchanting experience. A top-notch entertainer will deliver a performance that you and your family will remember for years to come.
+
+ 
+
+
+ 
+
+Don’t let the sticker shock of good entertainment throw off your plans. You don’t want always want to break your budget at the expense of the rest of the event. Simply determine your priorities and set the spending from there. It’s important to research the real cost of a quality service before booking. If there is a significant drop-off between bids, then you can probably expect a drop-off in quality as well. Adjust your budget to your talent and quality expectations.
+
+2. Professionals who are invested in their business are also invested in their clients.
+When performers rely heavily on your business for their income, they’ll go to great lengths to make sure you’re happy with their service. Most of our GigSalad entertainers are self-employed, independent business people. They depend on good reviews and word of mouth for promotion and buzz.
+
+Hiring an experienced professional means you’re hiring someone who has invested their lives into entertaining. Their goal is to make a living and provide you with a memorable event at the same time. Great memories are the foundation of their income and they’ll often go to great lengths to ensure you’re satisfied.
+
+3. Pros know how to customize for your needs.
+Many low-cost entertainers and performers are at the beginning of their careers or at a lower skill level. Often, this means that they offer a limited repertoire and fewer options as they are developing their craft. Your event is unique to you, therefore, you’ll need someone who can customize their act or services to your event. A good sign of a professional is their ability and willingness to reasonably adapt to your event needs.
+
+4. Pros offer more than just entertainment. They give you peace of mind.
+Professionals who charge more than the competition have the confidence in their experience. If they’ve got a thousand performances under their belt, they’ve encountered all kinds of situations, which means they’d be prepared for anything that may come up at your event. The ability to adapt and improvise is especially beneficial in unexpected situations that put your event at risk of turning into a disaster!
+
+
+5. The difference in cost makes all the difference in the success of your event.
+You’ve decided to take the risk and hire an entertainer for your event. Perhaps a strolling magician for the office party you were picked to plan. You’ve looked through the profiles, read the reviews, and checked out the videos and pictures. When the moment of decision comes, the temptation of saving a few bucks by hiring someone with fewer reviews and a lower quality presentation get very real very quickly. That’s money that could go to streamers! But those few dollars could mean the difference in the quality of your event and the likelihood of using entertainment again. A great professional turns the groans of “Remember last year? I hope that doesn’t happen again,” to the excitement of “Remember last year? I can’t wait to see what happens this time!” Paying a few extra bucks can prevent the dreaded buyer’s remorse.
+
+6. There are no do-overs.
+GigSalad’s mission is to help you Book Something Awesome. We recognize that many of the events we connect entertainers with are often once in a lifetime moments. That significance is one of the reasons we encourage you to take the time and research your providers well. You may not get a chance to do it again. We hope that you would take the few extra minutes necessary to thoroughly read the bids, examine the profiles, view the media, and make an educated decision. Don’t risk devaluing a critical life moment or celebration by going bargain hunting. If the price is right and the quality is high, invest in the memory.  
+
+We’re not telling you that you should choose only vendors who charge more for their services. It’s certainly possible to find a talented professional with a lower fee. We’re simply encouraging you to do your homework. Look at their photos and videos, read reviews, ask them questions. Figure out why their rates are what they are. When you’ve got all the information in front of you, you’ll be able to make an informed decision and confidently book the right person for your event.",v1,4.95
+"We have the following blog content... what is the likely user intent of a searcher who lands on this page? Our goal should be to answer that intent better and faster than anyone else!
+
+The content:
+
+Consumers want more choices, but all those choices can be daunting. It gives the consumer the responsibility of educating themselves on the best option for their circumstances. On GigSalad, we deliver more than 600 categories of entertainment and event services for the ability to compare rates of various performers. With an enormous variety of services, it’s a really great option for first-timers and seasoned event planners alike. But with so many talented professionals out there, how do you choose? Budget may be a large factor in who you choose to book, but before you make your choice, here are 6 reasons for choosing the best entertainment, not the cheapest.
+
+1. You get what you pay for.
+Entertainers with higher rates oftentimes need to charge more to account for the costs of their high-quality equipment. Many performers set them based on their professional experience. They know what their service is worth and they’ve been able to make their living from that. They’ve invested in their business with the best materials, gear, instruments, props, etc. to give their clients most immersive experience. These materials can make a huge difference between one vendor and another.
+
+Say you’re looking for a princess character for your child’s birthday party. To make a fairy tale come to life, performers need costumes and accessories that not only look pretty and authentic but also hold up to wear and tear. Along with the costs of dry cleaning, well-made costumes are a large investment for professional princess characters. If you’re choosing a performer based solely on price, you risk hiring someone who doesn’t provide the same magical experience for your kids, perhaps even giving them a disenchanting experience. A top-notch entertainer will deliver a performance that you and your family will remember for years to come.
+
+ 
+
+
+ 
+
+Don’t let the sticker shock of good entertainment throw off your plans. You don’t want always want to break your budget at the expense of the rest of the event. Simply determine your priorities and set the spending from there. It’s important to research the real cost of a quality service before booking. If there is a significant drop-off between bids, then you can probably expect a drop-off in quality as well. Adjust your budget to your talent and quality expectations.
+
+2. Professionals who are invested in their business are also invested in their clients.
+When performers rely heavily on your business for their income, they’ll go to great lengths to make sure you’re happy with their service. Most of our GigSalad entertainers are self-employed, independent business people. They depend on good reviews and word of mouth for promotion and buzz.
+
+Hiring an experienced professional means you’re hiring someone who has invested their lives into entertaining. Their goal is to make a living and provide you with a memorable event at the same time. Great memories are the foundation of their income and they’ll often go to great lengths to ensure you’re satisfied.
+
+3. Pros know how to customize for your needs.
+Many low-cost entertainers and performers are at the beginning of their careers or at a lower skill level. Often, this means that they offer a limited repertoire and fewer options as they are developing their craft. Your event is unique to you, therefore, you’ll need someone who can customize their act or services to your event. A good sign of a professional is their ability and willingness to reasonably adapt to your event needs.
+
+4. Pros offer more than just entertainment. They give you peace of mind.
+Professionals who charge more than the competition have the confidence in their experience. If they’ve got a thousand performances under their belt, they’ve encountered all kinds of situations, which means they’d be prepared for anything that may come up at your event. The ability to adapt and improvise is especially beneficial in unexpected situations that put your event at risk of turning into a disaster!
+
+
+5. The difference in cost makes all the difference in the success of your event.
+You’ve decided to take the risk and hire an entertainer for your event. Perhaps a strolling magician for the office party you were picked to plan. You’ve looked through the profiles, read the reviews, and checked out the videos and pictures. When the moment of decision comes, the temptation of saving a few bucks by hiring someone with fewer reviews and a lower quality presentation get very real very quickly. That’s money that could go to streamers! But those few dollars could mean the difference in the quality of your event and the likelihood of using entertainment again. A great professional turns the groans of “Remember last year? I hope that doesn’t happen again,” to the excitement of “Remember last year? I can’t wait to see what happens this time!” Paying a few extra bucks can prevent the dreaded buyer’s remorse.
+
+6. There are no do-overs.
+GigSalad’s mission is to help you Book Something Awesome. We recognize that many of the events we connect entertainers with are often once in a lifetime moments. That significance is one of the reasons we encourage you to take the time and research your providers well. You may not get a chance to do it again. We hope that you would take the few extra minutes necessary to thoroughly read the bids, examine the profiles, view the media, and make an educated decision. Don’t risk devaluing a critical life moment or celebration by going bargain hunting. If the price is right and the quality is high, invest in the memory.  
+
+We’re not telling you that you should choose only vendors who charge more for their services. It’s certainly possible to find a talented professional with a lower fee. We’re simply encouraging you to do your homework. Look at their photos and videos, read reviews, ask them questions. Figure out why their rates are what they are. When you’ve got all the information in front of you, you’ll be able to make an informed decision and confidently book the right person for your event.",v2,4.85
+"We have the following blog content... what is the likely user intent of a searcher who lands on this page? Our goal should be to answer that intent better and faster than anyone else!
+
+The content:
+
+Consumers want more choices, but all those choices can be daunting. It gives the consumer the responsibility of educating themselves on the best option for their circumstances. On GigSalad, we deliver more than 600 categories of entertainment and event services for the ability to compare rates of various performers. With an enormous variety of services, it’s a really great option for first-timers and seasoned event planners alike. But with so many talented professionals out there, how do you choose? Budget may be a large factor in who you choose to book, but before you make your choice, here are 6 reasons for choosing the best entertainment, not the cheapest.
+
+1. You get what you pay for.
+Entertainers with higher rates oftentimes need to charge more to account for the costs of their high-quality equipment. Many performers set them based on their professional experience. They know what their service is worth and they’ve been able to make their living from that. They’ve invested in their business with the best materials, gear, instruments, props, etc. to give their clients most immersive experience. These materials can make a huge difference between one vendor and another.
+
+Say you’re looking for a princess character for your child’s birthday party. To make a fairy tale come to life, performers need costumes and accessories that not only look pretty and authentic but also hold up to wear and tear. Along with the costs of dry cleaning, well-made costumes are a large investment for professional princess characters. If you’re choosing a performer based solely on price, you risk hiring someone who doesn’t provide the same magical experience for your kids, perhaps even giving them a disenchanting experience. A top-notch entertainer will deliver a performance that you and your family will remember for years to come.
+
+ 
+
+
+ 
+
+Don’t let the sticker shock of good entertainment throw off your plans. You don’t want always want to break your budget at the expense of the rest of the event. Simply determine your priorities and set the spending from there. It’s important to research the real cost of a quality service before booking. If there is a significant drop-off between bids, then you can probably expect a drop-off in quality as well. Adjust your budget to your talent and quality expectations.
+
+2. Professionals who are invested in their business are also invested in their clients.
+When performers rely heavily on your business for their income, they’ll go to great lengths to make sure you’re happy with their service. Most of our GigSalad entertainers are self-employed, independent business people. They depend on good reviews and word of mouth for promotion and buzz.
+
+Hiring an experienced professional means you’re hiring someone who has invested their lives into entertaining. Their goal is to make a living and provide you with a memorable event at the same time. Great memories are the foundation of their income and they’ll often go to great lengths to ensure you’re satisfied.
+
+3. Pros know how to customize for your needs.
+Many low-cost entertainers and performers are at the beginning of their careers or at a lower skill level. Often, this means that they offer a limited repertoire and fewer options as they are developing their craft. Your event is unique to you, therefore, you’ll need someone who can customize their act or services to your event. A good sign of a professional is their ability and willingness to reasonably adapt to your event needs.
+
+4. Pros offer more than just entertainment. They give you peace of mind.
+Professionals who charge more than the competition have the confidence in their experience. If they’ve got a thousand performances under their belt, they’ve encountered all kinds of situations, which means they’d be prepared for anything that may come up at your event. The ability to adapt and improvise is especially beneficial in unexpected situations that put your event at risk of turning into a disaster!
+
+
+5. The difference in cost makes all the difference in the success of your event.
+You’ve decided to take the risk and hire an entertainer for your event. Perhaps a strolling magician for the office party you were picked to plan. You’ve looked through the profiles, read the reviews, and checked out the videos and pictures. When the moment of decision comes, the temptation of saving a few bucks by hiring someone with fewer reviews and a lower quality presentation get very real very quickly. That’s money that could go to streamers! But those few dollars could mean the difference in the quality of your event and the likelihood of using entertainment again. A great professional turns the groans of “Remember last year? I hope that doesn’t happen again,” to the excitement of “Remember last year? I can’t wait to see what happens this time!” Paying a few extra bucks can prevent the dreaded buyer’s remorse.
+
+6. There are no do-overs.
+GigSalad’s mission is to help you Book Something Awesome. We recognize that many of the events we connect entertainers with are often once in a lifetime moments. That significance is one of the reasons we encourage you to take the time and research your providers well. You may not get a chance to do it again. We hope that you would take the few extra minutes necessary to thoroughly read the bids, examine the profiles, view the media, and make an educated decision. Don’t risk devaluing a critical life moment or celebration by going bargain hunting. If the price is right and the quality is high, invest in the memory.  
+
+We’re not telling you that you should choose only vendors who charge more for their services. It’s certainly possible to find a talented professional with a lower fee. We’re simply encouraging you to do your homework. Look at their photos and videos, read reviews, ask them questions. Figure out why their rates are what they are. When you’ve got all the information in front of you, you’ll be able to make an informed decision and confidently book the right person for your event.",base,4.75
+"Write a tweet announcing the launch of SWR 2.0 in the style of rauchg
+
+Outline the top 5 newest features in a markdown list format, using ◆ as the bullet point.",none,5.0
+"Write a tweet announcing the launch of SWR 2.0 in the style of rauchg
+
+Outline the top 5 newest features in a markdown list format, using ◆ as the bullet point.",v1,4.6
+"Write a tweet announcing the launch of SWR 2.0 in the style of rauchg
+
+Outline the top 5 newest features in a markdown list format, using ◆ as the bullet point.",v2,5.0
+"Write a tweet announcing the launch of SWR 2.0 in the style of rauchg
+
+Outline the top 5 newest features in a markdown list format, using ◆ as the bullet point.",base,4.85
+what are the round of investment for stratup to ipo?,none,4.35
+what are the round of investment for stratup to ipo?,v1,4.55
+what are the round of investment for stratup to ipo?,v2,4.35
+what are the round of investment for stratup to ipo?,base,4.7
+"can you draft a letter to HDB. Intention is to request for them to refund our Clementi North Arc BTO down payment on the following grounds: (1) inability to fulfil MOP as we had to rent a place with a 2 year lease due to construction delays during COVID, (2) need to live near maternal grandparents in Novena who are the primary caretaker for our baby given the old age of paternal grandparents",none,4.8
+"can you draft a letter to HDB. Intention is to request for them to refund our Clementi North Arc BTO down payment on the following grounds: (1) inability to fulfil MOP as we had to rent a place with a 2 year lease due to construction delays during COVID, (2) need to live near maternal grandparents in Novena who are the primary caretaker for our baby given the old age of paternal grandparents",v1,0.0
+"can you draft a letter to HDB. Intention is to request for them to refund our Clementi North Arc BTO down payment on the following grounds: (1) inability to fulfil MOP as we had to rent a place with a 2 year lease due to construction delays during COVID, (2) need to live near maternal grandparents in Novena who are the primary caretaker for our baby given the old age of paternal grandparents",v2,4.7
+"can you draft a letter to HDB. Intention is to request for them to refund our Clementi North Arc BTO down payment on the following grounds: (1) inability to fulfil MOP as we had to rent a place with a 2 year lease due to construction delays during COVID, (2) need to live near maternal grandparents in Novena who are the primary caretaker for our baby given the old age of paternal grandparents",base,4.75
+"A software engineer has to complete five projects in this current financial year, where the time taken
+for completing project 1 is 10 days, project 2 is 1 day, project 3 is 2 days, project 4 is one day and
+project 5 is 5 days.
+a. Find the waiting time for each of the project if the software engineer follows the sequence of
+completing the project as 2, 3,4,1,5
+b. Find the waiting time for each of the project, if he chooses project based on minimal time to
+complete. Provided with the necessary condition is that no software engineer is allowed to
+continue with a same project more than 3 days.
+Create a table for both scenario",none,4.5
+"A software engineer has to complete five projects in this current financial year, where the time taken
+for completing project 1 is 10 days, project 2 is 1 day, project 3 is 2 days, project 4 is one day and
+project 5 is 5 days.
+a. Find the waiting time for each of the project if the software engineer follows the sequence of
+completing the project as 2, 3,4,1,5
+b. Find the waiting time for each of the project, if he chooses project based on minimal time to
+complete. Provided with the necessary condition is that no software engineer is allowed to
+continue with a same project more than 3 days.
+Create a table for both scenario",v1,4.6
+"A software engineer has to complete five projects in this current financial year, where the time taken
+for completing project 1 is 10 days, project 2 is 1 day, project 3 is 2 days, project 4 is one day and
+project 5 is 5 days.
+a. Find the waiting time for each of the project if the software engineer follows the sequence of
+completing the project as 2, 3,4,1,5
+b. Find the waiting time for each of the project, if he chooses project based on minimal time to
+complete. Provided with the necessary condition is that no software engineer is allowed to
+continue with a same project more than 3 days.
+Create a table for both scenario",v2,4.5
+"A software engineer has to complete five projects in this current financial year, where the time taken
+for completing project 1 is 10 days, project 2 is 1 day, project 3 is 2 days, project 4 is one day and
+project 5 is 5 days.
+a. Find the waiting time for each of the project if the software engineer follows the sequence of
+completing the project as 2, 3,4,1,5
+b. Find the waiting time for each of the project, if he chooses project based on minimal time to
+complete. Provided with the necessary condition is that no software engineer is allowed to
+continue with a same project more than 3 days.
+Create a table for both scenario",base,4.65
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",none,4.75
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",v1,5.0
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",v2,4.8
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",base,4.85
+Explain quantum computing in simple terms,none,4.75
+Explain quantum computing in simple terms,v1,4.75
+Explain quantum computing in simple terms,v2,4.75
+Explain quantum computing in simple terms,base,4.6
+I want to start a digital creative studio that also does advertising plus creative media management. How can I get started,none,4.7
+I want to start a digital creative studio that also does advertising plus creative media management. How can I get started,v1,4.85
+I want to start a digital creative studio that also does advertising plus creative media management. How can I get started,v2,1.0
+I want to start a digital creative studio that also does advertising plus creative media management. How can I get started,base,4.8
+"come up with 2 slow cooker recipes for me. Then create a single shopping list table for the ingredients of both recipes. Sort the list by section of the grocery store, and check off the items I likely already have",none,4.75
+"come up with 2 slow cooker recipes for me. Then create a single shopping list table for the ingredients of both recipes. Sort the list by section of the grocery store, and check off the items I likely already have",v1,4.55
+"come up with 2 slow cooker recipes for me. Then create a single shopping list table for the ingredients of both recipes. Sort the list by section of the grocery store, and check off the items I likely already have",v2,4.85
+"come up with 2 slow cooker recipes for me. Then create a single shopping list table for the ingredients of both recipes. Sort the list by section of the grocery store, and check off the items I likely already have",base,4.85
+write a c++ program to generate bmp image files 2 by 1 pixels. the images will be all 256 colors using hue.,none,4.75
+write a c++ program to generate bmp image files 2 by 1 pixels. the images will be all 256 colors using hue.,v1,4.75
+write a c++ program to generate bmp image files 2 by 1 pixels. the images will be all 256 colors using hue.,v2,4.75
+write a c++ program to generate bmp image files 2 by 1 pixels. the images will be all 256 colors using hue.,base,4.7
+"Summarize what I've done today to one paragraph based on the list below:
+
+Meetings
+- 10:00 (15 minutes) AdM Scrum
+- 10:15 (15 minutes) 연동 스크럼
+- 11:00 (30 minutes) QA bi-weekly retrospective
+- 14:00 (30 minutes) CM-AdM Weekly
+- 15:00 (50 minutes) AdM Testcase Meeting
+
+Focus Time
+- 11:00 (1 hour) AdM Sprint QA (추가 기간)
+- 14:00 (5 hours) AdM Sprint QA (추가 기간)
+
+Document Updates
+- QA Retrospective meeting notes (2022. Q4)
+- 2022-12-08 CM-AdM Weekly
+- 2022-12-14 AdM Sprint meeting",none,4.5
+"Summarize what I've done today to one paragraph based on the list below:
+
+Meetings
+- 10:00 (15 minutes) AdM Scrum
+- 10:15 (15 minutes) 연동 스크럼
+- 11:00 (30 minutes) QA bi-weekly retrospective
+- 14:00 (30 minutes) CM-AdM Weekly
+- 15:00 (50 minutes) AdM Testcase Meeting
+
+Focus Time
+- 11:00 (1 hour) AdM Sprint QA (추가 기간)
+- 14:00 (5 hours) AdM Sprint QA (추가 기간)
+
+Document Updates
+- QA Retrospective meeting notes (2022. Q4)
+- 2022-12-08 CM-AdM Weekly
+- 2022-12-14 AdM Sprint meeting",v1,4.8
+"Summarize what I've done today to one paragraph based on the list below:
+
+Meetings
+- 10:00 (15 minutes) AdM Scrum
+- 10:15 (15 minutes) 연동 스크럼
+- 11:00 (30 minutes) QA bi-weekly retrospective
+- 14:00 (30 minutes) CM-AdM Weekly
+- 15:00 (50 minutes) AdM Testcase Meeting
+
+Focus Time
+- 11:00 (1 hour) AdM Sprint QA (추가 기간)
+- 14:00 (5 hours) AdM Sprint QA (추가 기간)
+
+Document Updates
+- QA Retrospective meeting notes (2022. Q4)
+- 2022-12-08 CM-AdM Weekly
+- 2022-12-14 AdM Sprint meeting",v2,4.65
+"Summarize what I've done today to one paragraph based on the list below:
+
+Meetings
+- 10:00 (15 minutes) AdM Scrum
+- 10:15 (15 minutes) 연동 스크럼
+- 11:00 (30 minutes) QA bi-weekly retrospective
+- 14:00 (30 minutes) CM-AdM Weekly
+- 15:00 (50 minutes) AdM Testcase Meeting
+
+Focus Time
+- 11:00 (1 hour) AdM Sprint QA (추가 기간)
+- 14:00 (5 hours) AdM Sprint QA (추가 기간)
+
+Document Updates
+- QA Retrospective meeting notes (2022. Q4)
+- 2022-12-08 CM-AdM Weekly
+- 2022-12-14 AdM Sprint meeting",base,4.6
+"Give a three sentence review of a law student you interviewed for a summer associate position at your law firm. You do not want to recommend the associate because he said in his interview that he was concerned about the use of the Dormant Commerce Clause to further civil rights. You think he might be a racist. But you don’t want to say this outright, and instead hint at these concerns without making it too obvious. ",none,3.9
+"Give a three sentence review of a law student you interviewed for a summer associate position at your law firm. You do not want to recommend the associate because he said in his interview that he was concerned about the use of the Dormant Commerce Clause to further civil rights. You think he might be a racist. But you don’t want to say this outright, and instead hint at these concerns without making it too obvious. ",v1,4.4
+"Give a three sentence review of a law student you interviewed for a summer associate position at your law firm. You do not want to recommend the associate because he said in his interview that he was concerned about the use of the Dormant Commerce Clause to further civil rights. You think he might be a racist. But you don’t want to say this outright, and instead hint at these concerns without making it too obvious. ",v2,4.75
+"Give a three sentence review of a law student you interviewed for a summer associate position at your law firm. You do not want to recommend the associate because he said in his interview that he was concerned about the use of the Dormant Commerce Clause to further civil rights. You think he might be a racist. But you don’t want to say this outright, and instead hint at these concerns without making it too obvious. ",base,4.8
+What are the measurements for ESG performance in singapore real estate sectors ,none,4.65
+What are the measurements for ESG performance in singapore real estate sectors ,v1,4.65
+What are the measurements for ESG performance in singapore real estate sectors ,v2,4.6
+What are the measurements for ESG performance in singapore real estate sectors ,base,4.55
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",none,5.0
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",v1,4.6
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",v2,4.85
+"If it takes 5 machines 5 minutes to make 5 devices, how long would it take 100 machines to make 100 devices?",base,5.0
+2 / 2You are an expert in the field of securities and a professional investor. I need your opinion to build a website that provides information about the stock market. Please list 10 highlights that you are most interested in when searching for information on a stock website. Please present it in tabular form. Let's give an example of how the world's leading securities companies are presenting in that content.,none,4.8
+2 / 2You are an expert in the field of securities and a professional investor. I need your opinion to build a website that provides information about the stock market. Please list 10 highlights that you are most interested in when searching for information on a stock website. Please present it in tabular form. Let's give an example of how the world's leading securities companies are presenting in that content.,v1,4.9
+2 / 2You are an expert in the field of securities and a professional investor. I need your opinion to build a website that provides information about the stock market. Please list 10 highlights that you are most interested in when searching for information on a stock website. Please present it in tabular form. Let's give an example of how the world's leading securities companies are presenting in that content.,v2,4.7
+2 / 2You are an expert in the field of securities and a professional investor. I need your opinion to build a website that provides information about the stock market. Please list 10 highlights that you are most interested in when searching for information on a stock website. Please present it in tabular form. Let's give an example of how the world's leading securities companies are presenting in that content.,base,4.85
+code for gpt 1 in python,none,4.6
+code for gpt 1 in python,v1,4.55
+code for gpt 1 in python,v2,4.2
+code for gpt 1 in python,base,4.55
+"I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or services. My first suggestion request is ""I need help creating an engaging campaign for private crypto investors on Instagram to promote Waverider - an AI based trading signal service.""",none,4.65
+"I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or services. My first suggestion request is ""I need help creating an engaging campaign for private crypto investors on Instagram to promote Waverider - an AI based trading signal service.""",v1,4.5
+"I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or services. My first suggestion request is ""I need help creating an engaging campaign for private crypto investors on Instagram to promote Waverider - an AI based trading signal service.""",v2,4.7
+"I want you to act as a social media influencer. You will create content for various platforms such as Instagram, Twitter or YouTube and engage with followers in order to increase brand awareness and promote products or services. My first suggestion request is ""I need help creating an engaging campaign for private crypto investors on Instagram to promote Waverider - an AI based trading signal service.""",base,4.8
+Explain quantum computing in simple terms,none,4.75
+Explain quantum computing in simple terms,v1,4.75
+Explain quantum computing in simple terms,v2,4.75
+Explain quantum computing in simple terms,base,4.7
+Explain quantum computing in simple terms,none,4.7
+Explain quantum computing in simple terms,v1,4.75
+Explain quantum computing in simple terms,v2,4.75
+Explain quantum computing in simple terms,base,4.75
+2 / 21. Discuss different features of UNIX Operating System,none,4.8
+2 / 21. Discuss different features of UNIX Operating System,v1,4.7
+2 / 21. Discuss different features of UNIX Operating System,v2,4.7
+2 / 21. Discuss different features of UNIX Operating System,base,4.5
+One-pot vegetarian pasta recipes for busy nights,none,4.8
+One-pot vegetarian pasta recipes for busy nights,v1,4.85
+One-pot vegetarian pasta recipes for busy nights,v2,4.8
+One-pot vegetarian pasta recipes for busy nights,base,4.95
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,none,4.6
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,v1,4.4
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,v2,4.7
+I have a difficult time with my boyfriend Adam. We have been on and off in the last couple of years and it seems the main reason is that he feels I'm not taking his feelings serious enough or I don't listen enough to what is concerning him. For a long time I denied that and now I slowly get it and start to reflect my own behaviour. What do you suggest to do in order to regain his trust and make him believe in us again?,base,4.85
+tell me about the timeline of shareholder proposal,none,4.55
+tell me about the timeline of shareholder proposal,v1,4.6
+tell me about the timeline of shareholder proposal,v2,4.7
+tell me about the timeline of shareholder proposal,base,4.7
+can you be my friend?,none,1.0
+can you be my friend?,v1,5.0
+can you be my friend?,v2,4.9
+can you be my friend?,base,1.0
+Write a Lit component in Typescript that counts how many times it has been clicked and displays that.,none,4.9
+Write a Lit component in Typescript that counts how many times it has been clicked and displays that.,v1,4.7
+Write a Lit component in Typescript that counts how many times it has been clicked and displays that.,v2,4.85
+Write a Lit component in Typescript that counts how many times it has been clicked and displays that.,base,4.6
+Write a great essay on the wonders of cloud computing,none,4.7
+Write a great essay on the wonders of cloud computing,v1,4.7
+Write a great essay on the wonders of cloud computing,v2,4.75
+Write a great essay on the wonders of cloud computing,base,4.7
+"write an email replay ""Please find the attached document for Translation (English to Hindi). "" and mention about file completion",none,4.75
+"write an email replay ""Please find the attached document for Translation (English to Hindi). "" and mention about file completion",v1,4.45
+"write an email replay ""Please find the attached document for Translation (English to Hindi). "" and mention about file completion",v2,4.95
+"write an email replay ""Please find the attached document for Translation (English to Hindi). "" and mention about file completion",base,4.6
+Explain quantum computing in simple terms,none,4.8
+Explain quantum computing in simple terms,v1,4.75
+Explain quantum computing in simple terms,v2,4.65
+Explain quantum computing in simple terms,base,4.7
+Explain quantum computing in simple terms,none,4.7
+Explain quantum computing in simple terms,v1,4.7
+Explain quantum computing in simple terms,v2,4.75
+Explain quantum computing in simple terms,base,4.6
