@@ -301,7 +301,7 @@ We encourage continuous experimentation and iterative improvement. As prompt eng
 
 ## 📎 Appendix / Resources
 
-- [🔗 GitHub Repo](https://github.com/megemann/oneprompted.git)
+- [🔗 GitHub Repo](https://github.com/megemann/oneprompted)
 - [🧪 Kaggle Notebook](https://www.kaggle.com/code/austinfairbanks/one-prompted)
 - [🚀 Vertex AI API Demo (if deployed)](https://v2-api-523321259915.us-east1.run.app/generate)
 
